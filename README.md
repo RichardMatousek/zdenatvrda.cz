@@ -1,0 +1,1 @@
+# zdenatvrda.cz
