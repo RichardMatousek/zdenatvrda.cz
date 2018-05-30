@@ -22,5 +22,5 @@
 <?php the_content(__('Read more...', 'theme')); ?>
   </div>
  
-  <?php endif: ?>
+  <?php endif; ?>
 </div>

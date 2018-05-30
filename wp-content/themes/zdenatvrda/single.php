@@ -2,6 +2,7 @@
 <div class="row-fluid">
   <div class="span8">
  <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+ <?php get_template_part( 'content', get_post_format() ); ?>
     <!--BEGIN .hentry -->
 <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
   <h1 class="entry-title"><?php the_title(); ?></h1>
