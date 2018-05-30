@@ -1,0 +1,1772 @@
+# Translation of Themes - OnePress in Czech
+# This file is distributed under the same license as the Themes - OnePress package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-05-14 07:10:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: Themes - OnePress\n"
+
+#. Description of the plugin/theme
+msgid "OnePress is an outstanding creative and flexible WordPress one page theme well suited for business website, portfolio, digital agency, product showcase, freelancers and everyone else who appreciate good design. The theme overall is an elegant and classic one, a fine example of Bootstrap 4 WordPress theme which compatibility with latest version of WooCommerce. (Live preview : http://www.famethemes.com/preview/?theme=OnePress)"
+msgstr "OnePress je vynikající kreativní a flexibilní šablona pro WordPress o jedné stránce, které se hodí pro firemní webové stránky, portfolia, digitální agenturu, produktovou prezentaci, pracovníky na volné noze a všechny ostatní, kteří ocení dobrý design. Šablona je celkově elegantní a klasická, což je skvělý příklad šablony Bootstrap 4 WordPress, která je kompatibilní s nejnovější verzí WooCommerce. (Živý náhled: http://www.famethemes.com/preview/?theme=OnePress)"
+
+#. #-#-#-#-#  onepress.pot (OnePress 2.0.8)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#: inc/dashboard.php:424
+msgid "OnePress"
+msgstr "OnePress"
+
+#: inc/dashboard.php:581
+msgid "Keep %s updated"
+msgstr "Udržovat %s aktuální"
+
+#: inc/dashboard.php:502
+msgid "Your settings were copied."
+msgstr "Vaše nastavení byla zkopírováno."
+
+#: inc/metabox.php:164
+msgid "Hide footer."
+msgstr "Skrýt zápatí"
+
+#: inc/metabox.php:153
+msgid "Display page excerpt as header cover description."
+msgstr "Zobrazit výpis stránky jako popis hlavičky."
+
+#: inc/metabox.php:147
+msgid "Display featured image as header cover."
+msgstr "Zobrazit vybraný obrázek jako záhlaví."
+
+#: inc/metabox.php:141
+msgid "Hide page title area."
+msgstr "Skrýt nadpis oblasti stránky."
+
+#: inc/metabox.php:136
+msgid "Hide header."
+msgstr "Skrýt záhlaví"
+
+#: inc/metabox.php:159
+msgid "Hide breadcrumb."
+msgstr "Skrýt breadcrumb."
+
+#: inc/customizer.php:391
+msgid "Only set if display site tagline."
+msgstr "Nastavte pouze v případě, že je zobrazen název obrazovce."
+
+#: inc/customizer.php:389
+msgid "Site Tagline Color"
+msgstr "Barevný název webu"
+
+#. Template Name of the plugin/theme
+msgid "Full Width - Contained Content"
+msgstr "Plná šířka - obsah obsažený"
+
+#. Template Name of the plugin/theme
+msgid "Full Width - Stretched Content"
+msgstr "Plná šířka - rozšířený obsah"
+
+#: inc/sanitize.php:240
+msgid "Upgrade to %1s to unlock this feature."
+msgstr "Chcete-li tuto funkci odemknout, proveďte aktualizaci na %1s."
+
+#: inc/metabox.php:38
+msgid "Page Settings"
+msgstr "Nastavení stránky"
+
+#: inc/dashboard.php:782
+msgid "Get OnePress Plus now!"
+msgstr "Získejte teď OnePress Plus!"
+
+#: inc/dashboard.php:427
+msgid "Free vs PLUS"
+msgstr "Free vs PLUS"
+
+#: inc/dashboard.php:425
+msgid "Recommended Actions"
+msgstr "Doporučené akce"
+
+#: inc/customizer.php:3640
+msgid "OnePress Plus Available! Take a look"
+msgstr "OnePress Plus k dispozici! Podívej se"
+
+#: inc/customizer.php:3314
+msgid "Ascending"
+msgstr "Vzestupně"
+
+#: inc/customizer.php:3313
+msgid "Descending"
+msgstr "Sestupně"
+
+#: inc/customizer.php:3309
+msgid "Order"
+msgstr "Objednat"
+
+#: inc/customizer.php:3294
+msgid "Random order"
+msgstr "Náhodná objednávka"
+
+#: inc/customizer.php:3293
+msgid "Order by Page Order"
+msgstr "Pořadí podle pořadí stránek"
+
+#: inc/customizer.php:3292
+msgid "Comment Count"
+msgstr "Počet komentářů"
+
+#: inc/customizer.php:3291
+msgid "Date"
+msgstr "Datum"
+
+#: inc/customizer.php:3289
+msgid "Author"
+msgstr "Autor"
+
+#: inc/customizer.php:3288
+msgid "ID"
+msgstr "ID"
+
+#: inc/customizer.php:3287
+msgid "Default"
+msgstr "Základní"
+
+#: inc/customizer.php:3283
+msgid "Order By"
+msgstr "Seřadit podle"
+
+#: inc/customizer.php:3267
+msgid "Category to show"
+msgstr "Zobrazit rubriky"
+
+#: inc/customizer.php:2799
+msgid "1x"
+msgstr "1x"
+
+#: inc/customizer.php:2798
+msgid "2x"
+msgstr "2x"
+
+#: inc/customizer.php:2797
+msgid "3x"
+msgstr "3x"
+
+#: inc/customizer.php:2796
+msgid "4x"
+msgstr "4x"
+
+#: inc/customizer.php:2795
+msgid "5x"
+msgstr "5x"
+
+#: inc/customizer.php:2790
+msgid "Icon Size"
+msgstr "Velikost ikony"
+
+#: inc/customizer.php:2288
+msgid "Layout Settings"
+msgstr "Nastavení vzhledu"
+
+#: inc/customizer.php:1568
+msgid "Rotating Text Background"
+msgstr "Rotující textové pozadí"
+
+#: inc/customizer.php:1553
+msgid "Rotating Text Color"
+msgstr "Rotující barva textu"
+
+#: inc/customizer.php:1529
+msgid "We are <span class=\"js-rotating\">OnePress | One Page | Responsive | Perfection</span>"
+msgstr "Jsme <span class=\"js-rotating\">OnePress | One Page | Responsive | Perfection</span>"
+
+#: inc/customizer.php:1486
+msgid "Want to add <strong>background video</strong> for hero section? Upgrade to <a target=\"_blank\" href=\"https://www.famethemes.com/plugins/onepress-plus/?utm_source=theme_customizer&utm_medium=text_link&utm_campaign=onepress_customizer#get-started\">OnePress Plus</a> version."
+msgstr "Want to add <strong>background video</strong> for hero section? Upgrade to <a target=\"_blank\" href=\"https://www.famethemes.com/plugins/onepress-plus/?utm_source=theme_customizer&utm_medium=text_link&utm_campaign=onepress_customizer#get-started\">OnePress Plus</a> version."
+
+#: inc/customizer.php:1255
+msgid "Disable Preload Icon"
+msgstr "Zakázat ikonu předběžného načtení"
+
+#: inc/customizer.php:1080
+msgid "Footer Copyright"
+msgstr "Zápatí Copyright"
+
+#: inc/customizer.php:1067 inc/customizer.php:1134
+msgid "Link Hover Color"
+msgstr "Barva odkazu po přejetí myší"
+
+#: inc/customizer.php:1051 inc/customizer.php:1121
+msgid "Link Color"
+msgstr "Barva odkazu"
+
+#: inc/customizer.php:1034
+msgid "Widget Title Color"
+msgstr "Barva nadpisu widgetu"
+
+#: inc/customizer.php:985
+msgid "Enter int numbers and sum of them must smaller or equal 12, separated by \"+\""
+msgstr "Zadejte čísla a jejich součet musí být menší nebo roven 12, oddělte je \"+\""
+
+#: inc/customizer.php:983
+msgid "Custom footer %s columns width"
+msgstr "Vlastní zápatí s %s sloupci"
+
+#: inc/customizer.php:983
+msgid "Custom footer 1 column width"
+msgstr "Vlastní zápatí s jedním sloupcem"
+
+#: inc/customizer.php:959
+msgid "Disable footer widgets"
+msgstr "Zakázat widgety v zápatí"
+
+#: inc/customizer.php:953
+msgid "Number footer columns to display."
+msgstr "Počet sloupců zápatí, které chcete zobrazit."
+
+#: inc/customizer.php:933
+msgid "Footer Widgets"
+msgstr "Widgety zápatí"
+
+#: inc/customizer.php:918 inc/customizer.php:1001 inc/customizer.php:1108
+msgid "Text Color"
+msgstr "Barva písma"
+
+#: inc/customizer.php:822 inc/customizer.php:2334 inc/customizer.php:2530
+#: inc/customizer.php:2743 inc/customizer.php:2931 inc/customizer.php:3109
+msgid "Upgrade to <a target=\"_blank\" href=\"https://www.famethemes.com/plugins/onepress-plus/?utm_source=theme_customizer&utm_medium=text_link&utm_campaign=onepress_customizer#get-started\">OnePress Plus</a> to be able to add more items and unlock other premium features!"
+msgstr "Upgrade to <a target=\"_blank\" href=\"https://www.famethemes.com/plugins/onepress-plus/?utm_source=theme_customizer&utm_medium=text_link&utm_campaign=onepress_customizer#get-started\">OnePress Plus</a> to be able to add more items and unlock other premium features!"
+
+#: inc/customizer.php:750
+msgid "Footer Socials"
+msgstr "Sociální zápatí"
+
+#: inc/customizer.php:696
+msgid "Right"
+msgstr "Vpravo"
+
+#: inc/customizer.php:695
+msgid "Left"
+msgstr "Vlevo"
+
+#: inc/customizer.php:694
+msgid "Center"
+msgstr "Uprostřed"
+
+#: inc/customizer.php:690
+msgid "Content Align"
+msgstr "Zarovnat obsah"
+
+#: inc/customizer.php:657
+msgid "Color"
+msgstr "Barva"
+
+#: inc/customizer.php:641
+msgid "The page cover padding bottom in percent (%)."
+msgstr "Spodní odsazení coveru stránky v procentech (%)."
+
+#: inc/customizer.php:640
+msgid "Padding Bottom"
+msgstr "Odsazení dole"
+
+#: inc/customizer.php:626
+msgid "The page cover padding top in percent (%)."
+msgstr "Horní odsazení coveru stránky v procentech (%)."
+
+#: inc/customizer.php:625
+msgid "Padding Top"
+msgstr "Odsazení nahoře"
+
+#: inc/customizer.php:612
+msgid "Check this box to disable the page title bar on all pages."
+msgstr "Zaškrtněte toto políčko, chcete-li na všech stránkách zakázat záhlaví stránky."
+
+#: inc/customizer.php:610
+msgid "Disable Page Title bar?"
+msgstr "Zakázat nadpis stránky?"
+
+#: inc/customizer.php:594
+msgid "Page Title Area"
+msgstr "Nadpis stránky"
+
+#: inc/customizer.php:584
+msgid "Padding left and right for Navigation items (pixels)."
+msgstr "Levé a pravé odsazení navigačních položek (pixely)."
+
+#: inc/customizer.php:583
+msgid "Menu Item Padding"
+msgstr "Odsazení položek menu"
+
+#: inc/customizer.php:569
+msgid "Navigation"
+msgstr "Navigace"
+
+#: inc/customizer.php:557
+msgid "Transparent Site Tagline Color"
+msgstr "Průhledná barva podnadpisu webu"
+
+#: inc/customizer.php:541
+msgid "Transparent Site Title Color"
+msgstr "Průhledná barva nadpisu webu"
+
+#: inc/customizer.php:508
+msgid "Transparent Retina Logo"
+msgstr "Průhledné logo ve vysokém rozlišení"
+
+#: inc/customizer.php:490 inc/customizer.php:509
+msgid "Only apply when transparent header option is checked."
+msgstr "Použijte pouze, pokud je zaškrtnuto volba průhledného záhlaví."
+
+#: inc/customizer.php:488
+msgid "Transparent Logo"
+msgstr "Průhledné logo"
+
+#: inc/customizer.php:294
+msgid "Below Hero Slider"
+msgstr "Slider pod hero"
+
+#: inc/customizer.php:293
+msgid "Top"
+msgstr "Nahoře"
+
+#: inc/customizer.php:290
+msgid "Header Position"
+msgstr "Pozice záhlaví"
+
+#: inc/customizer.php:272
+msgid "Contained"
+msgstr "Obsahuje"
+
+#: inc/customizer.php:268
+msgid "Header Width"
+msgstr "Šířka záhlaví"
+
+#: inc/customizer.php:218
+msgid "Check this if you want to disable default google fonts in theme."
+msgstr "Zkontrolujte, zda chcete zakázat výchozí Google písma v šabloně."
+
+#: inc/customizer.php:216
+msgid "Disable Google Fonts"
+msgstr "Vypnout Google Fonts"
+
+#: inc/customizer.php:119
+msgid "Logo Height In Pixel"
+msgstr "Výška loga v pixelech"
+
+#: inc/customizer.php:101
+msgid "Retina Logo"
+msgstr "Retina logo"
+
+#: inc/customizer-controls.php:632
+msgid "All"
+msgstr "Vše"
+
+#: functions.php:165
+msgid "Footer %s"
+msgstr "Zápatí %s"
+
+#: comments.php:32
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr "Jeden komentář k &ldquo;%2$s&rdquo;"
+
+#: inc/customizer.php:741
+msgid "Check this box to show single post meta such as post date, author, category,..."
+msgstr "Zaškrtněte toto políčko, chcete-li u jednotlivých příspěvky zobrazit, například datum pořízení, autor, rubriky..."
+
+#: inc/customizer.php:739
+msgid "Show single post meta"
+msgstr "Zobrazit jednotlivé příspěvky"
+
+#: inc/customizer.php:726
+msgid "Check this box to show post thumbnail on single post."
+msgstr "Zaškrtněte toto políčko, chcete-li zobrazit miniaturu příspěvku u jednoho příspěveku."
+
+#: inc/customizer.php:724
+msgid "Show single post thumbnail"
+msgstr "Zobrazit miniaturu jednoho příspěvku"
+
+#: inc/customizer.php:709
+msgid "Single Post"
+msgstr "Jeden příspěvek"
+
+#: inc/customizer.php:1378
+msgid "The amount of time in between slides, expressed as the number of milliseconds."
+msgstr "Doba mezi snímky je vyjádřena jako počet milisekund."
+
+#: inc/customizer.php:1377
+msgid "Slider duration speed"
+msgstr "Rychlost trvání posuvníku"
+
+#: inc/customizer.php:1361
+msgid "This is the speed at which the image will fade in. Integers in milliseconds are accepted."
+msgstr "Toto je rychlost, při které obraz ztrácí. Zadávat pouze celé čísla v milisekundách."
+
+#: inc/customizer.php:1360
+msgid "Slider animation speed"
+msgstr "Rychlost animace posuvníku"
+
+#: inc/customizer.php:1342
+msgid "Text animation speed"
+msgstr "Rychlost animace textu"
+
+#: inc/dashboard.php:479
+msgid "Child theme uses it's own theme setting name, would you like to copy setting data from parent theme to this child theme?"
+msgstr "Odvozená šablona používá vlastní název nastavení šablony, chcete kopírovat nastavení dat z nadřazené šablony do této odvozené šablony?"
+
+#: inc/customizer.php:3697
+msgid "Font Awesome"
+msgstr "Skvělý font"
+
+#: inc/customizer.php:3693
+msgid "Search"
+msgstr "Hledat"
+
+#: inc/dashboard.php:860
+msgid "Are you sure want to copy ?"
+msgstr "Opravdu chcete kopírovat?"
+
+#: inc/dashboard.php:519
+msgid "Recommend Plugins"
+msgstr "Doporučené pluginy"
+
+#: inc/dashboard.php:499
+msgid "Copy now"
+msgstr "Kopírovat teď"
+
+#: inc/dashboard.php:491
+msgid "To Theme"
+msgstr "Do šablony"
+
+#: inc/dashboard.php:485
+msgid "From Theme"
+msgstr "Ze šablony"
+
+#: inc/dashboard.php:477
+msgid "You're using %1$s theme, It's a child theme of OnePress"
+msgstr "Používáte šablonu %1$s, je to odvozená šablona od OnePress"
+
+#: inc/dashboard.php:331
+msgid "Details"
+msgstr "Detaily"
+
+#: inc/dashboard.php:259
+msgid "Import Demo Data"
+msgstr "Importovat demo data"
+
+#: inc/dashboard.php:259
+msgid "Save time by import our demo data, your website will be set up and ready to customize in minutes. %s"
+msgstr "Ušetřete čas tím, že importujete naše demo data. Vaše webové stránky budou nastaveny a připraveny k přizpůsobení během několika minut. %s"
+
+#: inc/customizer.php:2170
+msgid "Read More Text"
+msgstr "Přečtěte si další text"
+
+#: inc/customizer.php:2165 section-parts/section-gallery.php:38
+msgid "View More"
+msgstr "Zobrazit více"
+
+#: inc/customizer.php:2155
+msgid "Read More Link"
+msgstr "Číst více odkaz"
+
+#: inc/customizer.php:166
+msgid "No sidebar"
+msgstr "Žádný postranní panel"
+
+#: inc/customizer.php:165
+msgid "Left sidebar"
+msgstr "Levý postranní panel"
+
+#: inc/customizer.php:164
+msgid "Right sidebar"
+msgstr "Pravá postranní panel "
+
+#: inc/customizer.php:161
+msgid "Site Layout, apply for all pages, exclude home page and custom page templates."
+msgstr "Rozvržení stránky, použije se pro všechny stránky, vylučuje domovskou stránku a vlastní šablony stránek."
+
+#: inc/customizer.php:160
+msgid "Site Layout"
+msgstr "Rozložení stránk"
+
+#: functions.php:106
+msgid "Famethemes Demo Importer"
+msgstr "Famethemes demo import"
+
+#: functions.php:154
+msgid "WooCommerce Sidebar"
+msgstr "WooCommerce postranní panel "
+
+#: inc/customizer.php:2296 inc/customizer.php:2708
+msgid "1 Column"
+msgstr "1 sloupec"
+
+#: inc/customizer.php:2139
+msgid "Enable Lightbox"
+msgstr "Povolit Lightbox"
+
+#: inc/customizer.php:2125
+msgid "Number items"
+msgstr "Počet položek"
+
+#: inc/customizer.php:2100
+msgid "Layout columns"
+msgstr "Rozvržení sloupců"
+
+#: inc/customizer.php:2084
+msgid "Row Height"
+msgstr "Výška řádku"
+
+#: inc/customizer.php:2068
+msgid "Item Spacing"
+msgstr "Rozteč položek"
+
+#: inc/customizer.php:2054
+msgid "Masonry"
+msgstr "Zdivo"
+
+#: inc/customizer.php:2053
+msgid "Justified"
+msgstr "Odůvodněno"
+
+#: inc/customizer.php:2052
+msgid "Slider"
+msgstr "Posuvník"
+
+#: inc/customizer.php:2051
+msgid "Carousel"
+msgstr "Carousel"
+
+#: inc/customizer.php:2050
+msgid "Grid"
+msgstr "Mřížka"
+
+#: inc/customizer.php:2045
+msgid "Display"
+msgstr "Zobrazit"
+
+#: inc/customizer.php:2030
+msgid "Default, inside container"
+msgstr "Výchozí, uvnitř kontejneru"
+
+#: inc/customizer.php:950 inc/customizer.php:2025
+msgid "Layout"
+msgstr "Rozvržení"
+
+#: inc/customizer.php:2011
+msgid "Select a page which have content contain [gallery] shortcode."
+msgstr "Vyberte stránku, která obsahuje shordcode [gallery]."
+
+#: inc/customizer.php:2006
+msgid "Select Gallery Page"
+msgstr "Vybrat stránku galerie"
+
+#: inc/customizer.php:1989
+msgid "Page"
+msgstr "Stránka"
+
+#: inc/customizer.php:1984
+msgid "Select Gallery Source"
+msgstr "Vybrat zdroj galerie"
+
+#: inc/customizer.php:1923 section-parts/section-gallery.php:4
+msgid "Gallery"
+msgstr "Galerie"
+
+#: inc/customizer.php:1908 section-parts/section-gallery.php:2
+msgid "gallery"
+msgstr "galerie"
+
+#: inc/customizer.php:1873
+msgid "Section: Gallery"
+msgstr "Sekce: Galerie"
+
+#: inc/customizer.php:345
+msgid "Scroll to top when click to the site logo or site title, only apply on front page."
+msgstr "Chcete-li klepnout na logo nebo název webu, přejděte na začátek, použijte pouze na titulní stránce."
+
+#: inc/dashboard.php:840
+msgid "FameThemes Demo Importer"
+msgstr "FameThemes demo import"
+
+#: inc/dashboard.php:839
+msgid "Hey."
+msgstr "Ahoj"
+
+#: inc/dashboard.php:837
+msgid "%1$s you will need to install and activate the %2$s plugin first."
+msgstr "%1$s musíte nejprve nainstalovat a aktivovat plugin %2$s."
+
+#: inc/dashboard.php:311 inc/dashboard.php:821
+msgid "Active Now"
+msgstr "Aktivovat"
+
+#: inc/dashboard.php:289 inc/dashboard.php:799
+msgid "Install Now"
+msgstr "Instalovat"
+
+#: inc/dashboard.php:429
+msgid "One Click Demo Import"
+msgstr "Importujte na jeden klik demo"
+
+#: inc/customizer.php:1694
+msgid "Button #2 style"
+msgstr "Styl tlačítka #2"
+
+#: inc/customizer.php:3341
+msgid "More News Button Text"
+msgstr "Více zpráv - Text tlačítka"
+
+#: inc/customizer.php:3330
+msgid "It should be your blog page link."
+msgstr "Měl by to být odkaz na vaši stránku."
+
+#: inc/customizer.php:1639 inc/customizer.php:1705
+msgid "Danger"
+msgstr "Nebezpečí"
+
+#: inc/customizer.php:1638 inc/customizer.php:1704
+msgid "Warning"
+msgstr "Varování"
+
+#: inc/customizer.php:1637 inc/customizer.php:1703
+msgid "Info"
+msgstr "Info"
+
+#: inc/customizer.php:1636 inc/customizer.php:1702
+msgid "Success"
+msgstr "Úspěch"
+
+#: inc/customizer.php:1635 inc/customizer.php:1701
+msgid "Primary"
+msgstr "Primární"
+
+#: inc/customizer.php:1634 inc/customizer.php:1700
+msgid "Button"
+msgstr "Tlačítko"
+
+#: inc/customizer.php:1633 inc/customizer.php:1699
+msgid "Button Secondary"
+msgstr "Sekundární tlačítko"
+
+#: inc/customizer.php:1632 inc/customizer.php:1698
+msgid "Button Primary"
+msgstr "Primární tlačítko"
+
+#: inc/customizer.php:1628
+msgid "Button #1 style"
+msgstr "Styl tlačítka #1"
+
+#: inc/customizer.php:1287
+msgid "The hero content padding bottom in percent (%)."
+msgstr "Spodní odsazení hero obsahu v procentech (%)."
+
+#: inc/customizer.php:1271
+msgid "The hero content padding top in percent (%)."
+msgstr "Horní odsazení hero obsahu v procentech (%)."
+
+#: inc/customizer.php:1343
+msgid "The delay between the changing of each phrase in milliseconds."
+msgstr "Zpoždění mezi změnou každé fráze v milisekundách."
+
+#: inc/customizer.php:891
+msgid "The newsletter form use MailChimp, please follow <a target=\"_blank\" href=\"http://goo.gl/uRVIst\">this guide</a> to know how to get MailChimp Action URL. Example <i>//famethemes.us8.list-manage.com/subscribe/post?u=521c400d049a59a4b9c0550c2&amp;id=83187e0006</i>"
+msgstr "Newsletter používá MailChimp, <a target=\"_blank\" href=\"http://goo.gl/uRVIst\">v této příručce</a>zjistíte, jak získat adresu URL akce MailChimp. Příklad <i>//famethemes.us8.list-manage.com/subscribe/post?u=521c400d049a59a4b9c0550c2&amp;id=83187e0006</i>"
+
+#: inc/customizer.php:81
+msgid "Hide site tagline"
+msgstr "Skrýt popis webu"
+
+#: inc/customizer.php:66
+msgid "Hide site title"
+msgstr "Skrýt název webu"
+
+#: inc/customizer.php:2541 inc/customizer.php:2750
+msgid "image"
+msgstr "Obrázek"
+
+#: inc/customizer.php:1323
+msgid "Text animation"
+msgstr "Text animace"
+
+#: inc/dashboard.php:225
+msgid "OnePress Theme %s"
+msgstr "OnePress šablona %s"
+
+#: inc/dashboard.php:223
+msgid "%1$s action required"
+msgid_plural "%1$s actions required"
+msgstr[0] "%1$s vyžadovaná akce"
+msgstr[1] "%1$s vyžadované akce"
+msgstr[2] "%1$s vyžadovaných akcí"
+
+#: inc/customizer.php:1148 inc/customizer.php:1166
+msgid "Custom CSS"
+msgstr "Vlastní CSS"
+
+#: section-parts/section-features.php:5
+msgid "Why choose Us"
+msgstr "Proč nás zvolit"
+
+#: inc/customizer.php:2700
+msgid "Services Layout Settings"
+msgstr "Nastavení rozvržení služeb"
+
+#: inc/customizer.php:2559 inc/customizer.php:3117
+msgid "Custom Link"
+msgstr "Uživatelský odkaz"
+
+#: inc/customizer.php:2555
+msgid "Description"
+msgstr "Popis události"
+
+#: inc/customizer.php:2524
+msgid "Features content"
+msgstr "Obsahuje obsah"
+
+#: inc/customizer.php:2488
+msgid "Features Layout Setting"
+msgstr "Nastavení funkce rozvržení"
+
+#: inc/customizer.php:2435 section-parts/section-features.php:4
+msgid "Features"
+msgstr "Vlastnosti a nastavení"
+
+#: inc/customizer.php:2420 section-parts/section-features.php:2
+msgid "features"
+msgstr "funkce"
+
+#: inc/customizer.php:2385
+msgid "Section: Features"
+msgstr "Sekce: Funkce"
+
+#: inc/customizer.php:1960 inc/customizer.php:2271 inc/customizer.php:2472
+#: inc/customizer.php:2683 inc/customizer.php:2896 inc/customizer.php:3052
+#: inc/customizer.php:3222 inc/customizer.php:3440
+msgid "Section Description"
+msgstr "Popis sekce"
+
+#: inc/customizer.php:1756 inc/customizer.php:2550 inc/customizer.php:2759
+msgid "Image"
+msgstr "Obraz"
+
+#: inc/customizer.php:1738
+msgid "Content Text"
+msgstr "Text obsahu"
+
+#: inc/customizer.php:1518
+msgid "Layout 2"
+msgstr "Rozvržení 2"
+
+#: inc/customizer.php:1517
+msgid "Layout 1"
+msgstr "Rozvržení 1"
+
+#: inc/customizer.php:1512
+msgid "Display Layout"
+msgstr "Zobrazit rozvržení"
+
+#: inc/customizer.php:833
+msgid "URL"
+msgstr "Adresa (URL)"
+
+#: inc/customizer.php:829 inc/customizer.php:2540 inc/customizer.php:2545
+#: inc/customizer.php:2749 inc/customizer.php:2754
+msgid "Icon"
+msgstr "Ikona"
+
+#: inc/customizer.php:825
+msgid "Social network"
+msgstr "Sociální sítě"
+
+#: inc/customizer.php:816
+msgid "Socials"
+msgstr "Sociální"
+
+#: inc/customizer.php:471
+msgid "Apply for front page template only."
+msgstr "Použijte pouze šablonu úvodní stránky."
+
+#: inc/customizer.php:469
+msgid "Header Transparent"
+msgstr "Průhledné záhlaví"
+
+#: inc/template-tags.php:1616
+msgid "Subscribe"
+msgstr "Odebírat"
+
+#: inc/template-tags.php:1615
+msgid "Enter your e-mail address"
+msgstr "Zadejte emailovou adresu"
+
+#: inc/dashboard.php:455
+msgid "Support for %s WordPress theme is conducted through FameThemes support ticket system."
+msgstr "Podpora WordPress šablony %s se provádí prostřednictvím systému podpory FameThemes."
+
+#: inc/dashboard.php:449
+msgid "OnePress Documentation"
+msgstr "OnePress dokumentace"
+
+#: inc/customizer.php:2295 inc/customizer.php:2495 inc/customizer.php:2707
+#: inc/customizer.php:3075
+msgid "2 Columns"
+msgstr "2 sloupce"
+
+#: inc/customizer.php:2294 inc/customizer.php:2494 inc/customizer.php:2706
+#: inc/customizer.php:3074
+msgid "3 Columns"
+msgstr "3 sloupce"
+
+#: inc/customizer.php:2293 inc/customizer.php:2493 inc/customizer.php:2705
+#: inc/customizer.php:3073
+msgid "4 Columns"
+msgstr "4 sloupce"
+
+#: inc/customizer.php:3068
+msgid "Team Layout Settings"
+msgstr "Nastavení rozvržení týmu"
+
+#: inc/customizer.php:2371 inc/customizer.php:2584
+msgid "Page Excerpt"
+msgstr "Výňatek stránky"
+
+#: inc/customizer.php:2370 inc/customizer.php:2583
+msgid "Full Page Content"
+msgstr "Celý obsah stránky"
+
+#: inc/customizer.php:2365 inc/customizer.php:2578
+msgid "Item content source"
+msgstr "Zdroj obsahu položky"
+
+#: inc/customizer.php:2328
+msgid "About content page"
+msgstr "O obsahové stránce"
+
+#: inc/customizer.php:1468
+msgid "Enable parallax effect (apply for first BG image only)"
+msgstr "Aktivovat efekt paralaxy (platí pouze pro první obrázek BG)"
+
+#: inc/customizer.php:330
+msgid "If you use logo and your logo is too tall, check this box to auto vertical align menu."
+msgstr "Pokud používáte logo a vaše logo je příliš vysoké, zaškrtněte toto políčko na automatické vertikální zarovnání k menu."
+
+#: inc/customizer.php:328
+msgid "Center vertical align for menu"
+msgstr "Středová svislé zarovnání pro menu"
+
+#: inc/customizer.php:450
+msgid "Responsive Menu Button Color"
+msgstr "Responzivní barva tlačítka menu"
+
+#: inc/customizer.php:435
+msgid "Menu Link Hover/Active BG Color"
+msgstr "Menu odkaz hover/Aktivní BG Barva"
+
+#: inc/customizer.php:419
+msgid "Menu Link Hover/Active Color"
+msgstr "Menu odkaz hover/Aktivní barva"
+
+#: inc/customizer.php:404
+msgid "Menu Link Color"
+msgstr "Barva odkazu v menu"
+
+#: inc/customizer.php:377
+msgid "Only set if you don't use an image logo."
+msgstr "Nastavte pouze, pokud nepoužíváte logo jako obrázek."
+
+#: inc/customizer.php:375
+msgid "Site Title Color"
+msgstr "Barva pro název webu"
+
+#: inc/customizer.php:359 inc/customizer.php:1017
+msgid "Background Color"
+msgstr "Barva pozadí"
+
+#: inc/customizer.php:250
+msgid "Header"
+msgstr "Hlavička"
+
+#: inc/customizer.php:237
+msgid "Primary Color"
+msgstr "Základní barva"
+
+#: inc/customizer.php:228
+msgid "Site Colors"
+msgstr "Barvy stránek"
+
+#: inc/customizer.php:3112
+msgid "User media"
+msgstr "Uživatelská média"
+
+#: inc/customizer.php:1861
+msgid "Background image"
+msgstr "Obrázek na pozadí"
+
+#: inc/customizer.php:1846
+msgid "Paste Youtube or Vimeo url here"
+msgstr "Vložte zde adresu Youtube nebo Vimeo"
+
+#: inc/customizer.php:1844
+msgid "Video url"
+msgstr "Video url"
+
+#: inc/customizer.php:1829
+msgid "Section heading"
+msgstr "Nadpis sekce"
+
+#: inc/customizer.php:1225 inc/customizer.php:1813 inc/customizer.php:1915
+#: inc/customizer.php:2226 inc/customizer.php:2427 inc/customizer.php:2851
+#: inc/customizer.php:3177 inc/customizer.php:3395
+msgid "The section id, we will use this for link anchor."
+msgstr "ID sekce použijeme pro spojení s kotvou."
+
+#: inc/customizer.php:1771
+msgid "Section: Video Lightbox"
+msgstr "Sekce: Video Lightbox"
+
+#: inc/dashboard.php:582
+msgid "Hooray! There are no required actions for you right now."
+msgstr "Hurá! V současné době neexistují žádné požadované akce."
+
+#: inc/dashboard.php:572
+msgid "Change homepage page template"
+msgstr "Změna šablony domovské stránky"
+
+#: inc/dashboard.php:558
+msgid "In order to change homepage section contents, you will need to set template \"Frontpage\" for your homepage."
+msgstr "Chcete-li změnit obsah sekcí domovské stránky, musíte pro svou domovskou stránku nastavit šablonu \"Úvodní stránka\"."
+
+#: inc/dashboard.php:555
+msgid "Set your homepage page template to \"Frontpage\"."
+msgstr "Nastavte šablonu domovské stránky na \"úvodní stránce\"."
+
+#: inc/dashboard.php:541 inc/dashboard.php:565
+msgid "Setup front page displays"
+msgstr "Zobrazí se nastavení úvodní stránky"
+
+#: inc/dashboard.php:538
+msgid "In order to have the one page look for your website, please go to Customize -&gt; Static Front Page and switch \"Front page displays\" to \"A static page\"."
+msgstr "Chcete-li, aby vaše webové stránky měly jen jednu statickou stránku, přejděte na položku Přizpůsobit -&gt; Statická přední strana a přepínač \"Přední strana zobrazuje\" na \"Statická stránka\"."
+
+#: inc/dashboard.php:536
+msgid "Switch \"Front page displays\" to \"A static page\""
+msgstr "Přepínač \"Přední strana se zobrazí\" na \"Statická stránka\""
+
+#: inc/dashboard.php:529 inc/dashboard.php:548
+msgid "Dismiss"
+msgstr "Skrýt"
+
+#: inc/dashboard.php:416
+msgid "Welcome to OnePress - Version %1s"
+msgstr "Vítejte v OnePress - verze %1s"
+
+#: inc/dashboard.php:250
+msgid "Welcome! Thank you for choosing %1$s! To fully take advantage of the best our theme can offer please make sure you visit our <a href=\"%2$s\">Welcome page</a>"
+msgstr "Vítejte! Děkujeme za výběr %1$s! Chcete-li plně využít toho nejlepšího, co nabízí naše šablona, ujistěte se, že jste navštívili naši <a href=\"%2$s\"> uvítací stránku </a>"
+
+#: inc/dashboard.php:227
+msgid "OnePress Theme"
+msgstr "OnePress šablona"
+
+#: inc/dashboard.php:230
+msgid "OnePress Dashboard"
+msgstr "OnePress nástěnka"
+
+#: inc/customizer.php:675 inc/customizer.php:1449
+msgid "Background Overlay Color"
+msgstr "Barva překryvného pozadí"
+
+#: inc/customizer.php:3614
+msgid "Section Order & Styling"
+msgstr "Sekce pořadí a styl"
+
+#: inc/customizer.php:312
+msgid "Check this box to disable sticky header when scroll."
+msgstr "Zaškrtnutím tohoto políčka deaktivujete hlavičku s připnutými prvky při rolovacím režimu."
+
+#: inc/customizer.php:310
+msgid "Disable Sticky Header?"
+msgstr "Zakázat připnutou hlavičku?"
+
+#. Template Name of the plugin/theme
+msgid "Left Sidebar"
+msgstr "Levý postranní panel"
+
+#: inc/customizer.php:271 inc/customizer.php:2031
+msgid "Full Width"
+msgstr "Plná délka"
+
+#. Template Name of the plugin/theme
+msgid "Frontpage"
+msgstr "Úvodní strana"
+
+#: template-parts/content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Vypadá to, že nemůžeme najít to, co hledáte. Možná pomůže vyhledávání."
+
+#: template-parts/content-none.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Omlouváme se, ale hledaný výraz nebyl bohužel nalezen. Zkuste to prosím znovu s nějakými jinými klíčovými slovy."
+
+#: template-parts/content-none.php:18
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Jste připraveni publikovat váš první příspěvek? <a href=\"%1$s\">Začněte zde</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Nic nenalezeno"
+
+#: template-parts/content-list.php:38 template-parts/content-page.php:21
+#: template-parts/content-single.php:35 template-parts/content.php:39
+msgid "Pages:"
+msgstr "Strany:"
+
+#: section-parts/section-hero.php:88
+msgid "#services"
+msgstr "#services"
+
+#: section-parts/section-contact.php:48
+msgid "You can install %1$s plugin and go to Customizer &rarr; Section: Contact &rarr; Section Content to show a working contact form here."
+msgstr "Můžete nainstalovat plugin %1$s a přejít na přizpůsobení &rarr; Sekce: Kontakt &rarr; Sekce obsah pro zobrazení pracovního formuláře."
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Výsledky hledání pro: %s"
+
+#: inc/template-tags.php:467
+msgid "Your comment is awaiting moderation."
+msgstr "Váš komentář čeká na schválení."
+
+#: inc/template-tags.php:462
+msgid "Edit"
+msgstr "Editace"
+
+#. translators: 1: date, 2: time
+#: inc/template-tags.php:461
+msgid "Reply"
+msgstr "Reagovat"
+
+#: inc/template-tags.php:453
+msgid "Post author"
+msgstr "Autor článku"
+
+#: inc/template-tags.php:434
+msgid "(Edit)"
+msgstr "(Upravit)"
+
+#: inc/template-tags.php:434
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/template-tags.php:364
+msgid "% Comments"
+msgstr "% komentářů"
+
+#: inc/template-tags.php:364
+msgid "1 Comment"
+msgstr "Komentáře: 1"
+
+#: inc/template-tags.php:364
+msgid "Leave a comment"
+msgstr "Zanechat Poznámku"
+
+#: inc/template-tags.php:358
+msgid "Tagged %1$s"
+msgstr "Tagged %1$s"
+
+#: inc/template-tags.php:352
+msgid "Posted in %1$s"
+msgstr "Publikováno v %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:350 inc/template-tags.php:356
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:332
+msgctxt "post author"
+msgid "by %s"
+msgstr ", autor: %s"
+
+#: inc/template-tags.php:327
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publikováno %s"
+
+#: inc/dashboard.php:454
+msgid "Having Trouble, Need Support?"
+msgstr "Máte problémy, potřebujete pomoct?"
+
+#: inc/dashboard.php:447
+msgid "Need any help to setup and configure %s? Please have a look at our documentations instructions."
+msgstr "Potřebujete nápovědu k nastavení a konfiguraci %s? Podívejte se na naše pokyny pro dokumentaci."
+
+#: inc/dashboard.php:446
+msgid "Theme Documentation"
+msgstr "Dokumentace šablony"
+
+#: inc/dashboard.php:442
+msgid "Start Customize"
+msgstr "Začít přizpůsobovat"
+
+#: inc/dashboard.php:440
+msgid "%s supports the Theme Customizer for all theme settings. Click \"Customize\" to start customize your site."
+msgstr "%s podporuje přizpůsobení šablony pro všechna nastavení. Klepnutím na tlačítko přizpůsobit spusťte vlastní nastavení."
+
+#: inc/dashboard.php:439
+msgid "Theme Customizer"
+msgstr "Přizpůsobení tématu"
+
+#: inc/dashboard.php:417
+msgid "OnePress is a creative and flexible WordPress ONE PAGE theme well suited for business, portfolio, digital agency, product showcase, freelancers websites."
+msgstr "OnePress je kreativní a flexibilní WordPress ONE PAGE šablona vhodná pro firmy, portfolia, digitální agentury, produktovou prezentaci, webové stránky na volné noze."
+
+#: inc/customizer.php:3595
+msgid "Fax"
+msgstr "Fax"
+
+#: inc/customizer.php:3580
+msgid "Email"
+msgstr "E-mail"
+
+#: inc/customizer.php:3565
+msgid "Phone"
+msgstr "Telefon"
+
+#: inc/customizer.php:3550
+msgid "Address"
+msgstr "Adresa"
+
+#: inc/customizer.php:3535
+msgid "Contact Box Title"
+msgstr "Nadpis kontaktního pole"
+
+#: inc/customizer.php:3511
+msgid "Contact Text"
+msgstr "Kontaktní text"
+
+#: inc/customizer.php:3496
+msgid "Check this box to hide contact form."
+msgstr "Zaškrtněte toto políčko pro skrytí kontaktního formuláře."
+
+#: inc/customizer.php:3494
+msgid "Hide contact form completely."
+msgstr "Skrýt kontaktní formulář."
+
+#: inc/customizer.php:3478
+msgid "Contact Form Shortcode."
+msgstr "Contact Form 7 shortcode."
+
+#: inc/customizer.php:3403 section-parts/section-contact.php:4
+msgid "Get in touch"
+msgstr "Být v kontaktu"
+
+#: inc/customizer.php:3388 section-parts/section-contact.php:2
+msgid "contact"
+msgstr "kontakt"
+
+#: inc/customizer.php:3353
+msgid "Section: Contact"
+msgstr "Sekce: Kontakt"
+
+#: inc/customizer.php:3336 section-parts/section-news.php:8
+msgid "Read Our Blog"
+msgstr "Přečtěte si náš blog"
+
+#: inc/customizer.php:3328
+msgid "More News button link"
+msgstr "Odkaz tlačítka více novinek"
+
+#: inc/customizer.php:3250
+msgid "Number of post to show"
+msgstr "Počet příspěvků, které se mají zobrazit"
+
+#: inc/customizer.php:3185 section-parts/section-news.php:4
+msgid "Latest News"
+msgstr "Poslední novinky"
+
+#: inc/customizer.php:3170 section-parts/section-news.php:2
+msgid "news"
+msgstr "novinky"
+
+#: inc/customizer.php:3135
+msgid "Section: News"
+msgstr "Sekce: Novinky"
+
+#: inc/customizer.php:3103
+msgid "Team members"
+msgstr "Členové týmu"
+
+#: inc/customizer.php:3015 section-parts/section-team.php:4
+msgid "Our Team"
+msgstr "Náš tým"
+
+#: inc/customizer.php:3000 section-parts/section-team.php:2
+msgid "team"
+msgstr "tým"
+
+#: inc/customizer.php:2966
+msgid "Section: Team"
+msgstr "Sekce: Tým"
+
+#: inc/customizer.php:2950
+msgid "After number"
+msgstr "Po čísle"
+
+#: inc/customizer.php:2945
+msgid "Before number"
+msgstr "Před číslem"
+
+#: inc/customizer.php:2940
+msgid "Number"
+msgstr "Číslo"
+
+#: inc/customizer.php:2937
+msgid "Your counter label"
+msgstr "Značka kontroly"
+
+#: inc/customizer.php:2533 inc/customizer.php:2934 inc/customizer.php:3290
+msgid "Title"
+msgstr "Nadpis"
+
+#: inc/customizer.php:2925
+msgid "Counter content"
+msgstr "Kontrolovat obsah"
+
+#: inc/customizer.php:2859 section-parts/section-counter.php:4
+msgid "Our Numbers"
+msgstr "Naše čísla"
+
+#: inc/customizer.php:2844 section-parts/section-counter.php:2
+msgid "counter"
+msgstr "kontrolovat"
+
+#: inc/customizer.php:2810
+msgid "Section: Counter"
+msgstr "Sekce: Kontrolovat"
+
+#: inc/customizer.php:2537 inc/customizer.php:2746
+msgid "Custom icon"
+msgstr "Vlastní ikona"
+
+#: inc/customizer.php:2737
+msgid "Service content"
+msgstr "Obsah služeb"
+
+#: inc/customizer.php:2646 section-parts/section-hero.php:87
+#: section-parts/section-services.php:4
+msgid "Our Services"
+msgstr "Naše služby"
+
+#: inc/customizer.php:2631 section-parts/section-services.php:2
+msgid "services"
+msgstr "služby"
+
+#: inc/customizer.php:2596
+msgid "Section: Services"
+msgstr "Sekce: Služby"
+
+#: inc/customizer.php:2346 inc/customizer.php:2770
+msgid "Link to single page"
+msgstr "Odkaz na jednu stránku"
+
+#: inc/customizer.php:2342
+msgid "Hide item title"
+msgstr "Skrýt nadpis položky"
+
+#: inc/customizer.php:2337 inc/customizer.php:2765
+msgid "Select a page"
+msgstr "Vyberte stránku"
+
+#: inc/customizer.php:820 inc/customizer.php:2332 inc/customizer.php:2528
+#: inc/customizer.php:2741 inc/customizer.php:2929 inc/customizer.php:3107
+msgid "[live_title]"
+msgstr "[live_title]"
+
+#: inc/customizer.php:1969 inc/customizer.php:2307 inc/customizer.php:2504
+#: inc/customizer.php:2717 inc/customizer.php:2905 inc/customizer.php:3083
+#: inc/customizer.php:3450
+msgid "Section Content"
+msgstr "Obsah sekce"
+
+#: inc/customizer.php:1943 inc/customizer.php:2254 inc/customizer.php:2455
+#: inc/customizer.php:2666 inc/customizer.php:2879 inc/customizer.php:3035
+#: inc/customizer.php:3205 inc/customizer.php:3423
+msgid "Section Subtitle"
+msgstr "Titulky sekce"
+
+#: inc/customizer.php:1938 inc/customizer.php:2249 inc/customizer.php:2450
+#: inc/customizer.php:2661 inc/customizer.php:2874 inc/customizer.php:3030
+#: inc/customizer.php:3200 inc/customizer.php:3418
+#: section-parts/section-about.php:5 section-parts/section-contact.php:5
+#: section-parts/section-counter.php:5 section-parts/section-gallery.php:5
+#: section-parts/section-news.php:5 section-parts/section-services.php:5
+#: section-parts/section-team.php:5
+msgid "Section subtitle"
+msgstr "Titulky sekce "
+
+#: inc/customizer.php:1928 inc/customizer.php:2239 inc/customizer.php:2440
+#: inc/customizer.php:2651 inc/customizer.php:2864 inc/customizer.php:3020
+#: inc/customizer.php:3190 inc/customizer.php:3408
+msgid "Section Title"
+msgstr "Nadpis sekce"
+
+#: inc/customizer.php:2219 section-parts/section-about.php:2
+msgid "about"
+msgstr "O WordPressu"
+
+#: inc/customizer.php:1780 inc/customizer.php:1882 inc/customizer.php:2193
+#: inc/customizer.php:2394 inc/customizer.php:2605 inc/customizer.php:2819
+#: inc/customizer.php:2975 inc/customizer.php:3144 inc/customizer.php:3362
+msgid "Section Settings"
+msgstr "Nastavení sekce"
+
+#: inc/customizer.php:2184
+msgid "Section: About"
+msgstr "Sekce: O nás"
+
+#: inc/customizer.php:1680
+msgid "Button #2 Link"
+msgstr "Odkaz tlačítka #2"
+
+#: inc/customizer.php:1675 section-parts/section-hero.php:90
+msgid "#contact"
+msgstr "#contact"
+
+#: inc/customizer.php:1666
+msgid "Button #2 Text"
+msgstr "Text tlačítka #2"
+
+#: inc/customizer.php:1661 section-parts/section-hero.php:89
+msgid "Get Started"
+msgstr "Začněme"
+
+#: inc/customizer.php:1615
+msgid "Button #1 Link"
+msgstr "Odkaz tlačítka #1"
+
+#: inc/customizer.php:1610
+msgid "#about"
+msgstr "#o"
+
+#: inc/customizer.php:1601
+msgid "Button #1 Text"
+msgstr "Text tlačítka #1 "
+
+#: inc/customizer.php:1596 inc/customizer.php:2234
+#: section-parts/section-about.php:4
+msgid "About Us"
+msgstr "O nás"
+
+#: inc/customizer.php:1588
+msgid "You can use text rotate slider in this textarea too."
+msgstr "V textu můžete také použít posuvník pro rotaci textu."
+
+#: inc/customizer.php:1585
+msgid "Small Text"
+msgstr "Malý text"
+
+#: inc/customizer.php:1538
+msgid "Text Rotating Guide: Put your rotate texts separate by \"|\" into <span class=\"js-rotating\">...</span>, go to Customizer -> Theme Options -> Section: Hero -> Hero Settings to control rotate animation."
+msgstr "Příručka pro rotaci textu: Umístěte rotační texty odděleně \"|\" do <span class=\"js-rotating\">...</span>,, přejděte na Přizpůsobení-> Nastavení stránky-> Animace pro ovládání otočení animace."
+
+#: inc/customizer.php:1536
+msgid "Large Text"
+msgstr "Velký text"
+
+#: inc/customizer.php:1496
+msgid "Hero Content Layout"
+msgstr "Hero rozložení obsahu"
+
+#: inc/customizer.php:1423
+msgid "Background Image"
+msgstr "Obrázek na pozadí"
+
+#: inc/customizer.php:904 inc/customizer.php:1094 inc/customizer.php:1418
+msgid "Background"
+msgstr "Pozadí"
+
+#: inc/customizer.php:1414
+msgid "Background Images"
+msgstr "Obrázky na pozadí"
+
+#: inc/customizer.php:1388
+msgid "Hero Background Media"
+msgstr "Hero média na pozadí"
+
+#: inc/customizer.php:1285
+msgid "Padding Bottom:"
+msgstr "Odsazení dole:"
+
+#: inc/customizer.php:1269
+msgid "Padding Top:"
+msgstr "Odsazení nahoře:"
+
+#: inc/customizer.php:1264 inc/customizer.php:1280
+msgid "10"
+msgstr "10"
+
+#: inc/customizer.php:1241
+msgid "Check this box to make hero section full screen."
+msgstr "Zaškrtněte toto políčko, aby se hero dostala na celou obrazovku."
+
+#: inc/customizer.php:1239
+msgid "Make hero section full screen"
+msgstr "Udělat sekci hero na celou obrazovku"
+
+#: inc/customizer.php:1223 inc/customizer.php:1811 inc/customizer.php:1913
+#: inc/customizer.php:2224 inc/customizer.php:2425 inc/customizer.php:2636
+#: inc/customizer.php:2849 inc/customizer.php:3005 inc/customizer.php:3175
+#: inc/customizer.php:3393
+msgid "Section ID:"
+msgstr "ID sekce:"
+
+#: inc/customizer.php:1218 section-parts/section-hero.php:2
+msgid "hero"
+msgstr "Hrdina"
+
+#: inc/customizer.php:1211 inc/customizer.php:1798 inc/customizer.php:1900
+#: inc/customizer.php:2211 inc/customizer.php:2412 inc/customizer.php:2623
+#: inc/customizer.php:2836 inc/customizer.php:2993 inc/customizer.php:3162
+#: inc/customizer.php:3380
+msgid "Check this box to hide this section."
+msgstr "Zaškrtněte toto políčko, chcete-li tuto sekci skrýt."
+
+#: inc/customizer.php:1209 inc/customizer.php:1796 inc/customizer.php:1898
+#: inc/customizer.php:2209 inc/customizer.php:2410 inc/customizer.php:2621
+#: inc/customizer.php:2834 inc/customizer.php:2991 inc/customizer.php:3160
+#: inc/customizer.php:3378
+msgid "Hide this section?"
+msgstr "Skrýt tuto sekci?"
+
+#: inc/customizer.php:1193
+msgid "Hero Settings"
+msgstr "Hero nastavení"
+
+#: inc/customizer.php:1183
+msgid "Section: Hero"
+msgstr "Sekce: Hrdina"
+
+#: inc/customizer.php:889
+msgid "MailChimp Action URL"
+msgstr "MailChimp URL"
+
+#: inc/customizer.php:873
+msgid "Newsletter Form Title"
+msgstr "Název newsletteru"
+
+#: inc/customizer.php:859
+msgid "Check this box to hide footer newsletter form."
+msgstr "Zaškrtněte toto políčko, chcete-li skrýt newsletter."
+
+#: inc/customizer.php:857
+msgid "Hide Footer Newsletter?"
+msgstr "Skrýt newsletter v zápatí?"
+
+#: inc/customizer.php:796
+msgid "Social Footer Title"
+msgstr "Nadpis sociálního zápatí"
+
+#: inc/customizer.php:782
+msgid "The social profiles specified below will be displayed in the footer of your site."
+msgstr "Níže uvedené sociální profily se zobrazí v zápatí vašeho webu."
+
+#: inc/customizer.php:769
+msgid "Check this box to hide footer social section."
+msgstr "Zaškrtněte toto políčko, chcete-li skrýt sociální část ve spodní části stránky."
+
+#: inc/customizer.php:767
+msgid "Hide Footer Social?"
+msgstr "Skrýt sociální zápatí?"
+
+#: inc/customizer.php:201
+msgid "Check this box to hide footer back to top button."
+msgstr "Zaškrtněte toto políčko, chcete-li skrýt tlačítko zpět na začátek."
+
+#: inc/customizer.php:199
+msgid "Hide footer back to top?"
+msgstr "Skrýt tlačítko zpět na začátek?"
+
+#: inc/customizer.php:184
+msgid "Check this box to disable all element animation when scroll."
+msgstr "Zaškrtněte toto políčko, chcete-li vypnout všechny animace. "
+
+#: inc/customizer.php:182
+msgid "Disable animation effect?"
+msgstr "Skrýt animace?"
+
+#: inc/customizer.php:143
+msgid "Global"
+msgstr "Globální"
+
+#: inc/customizer.php:133
+msgid "Theme Options"
+msgstr "Volby pro motivy"
+
+#: inc/customizer.php:46
+msgid "Select member"
+msgstr "Vybrat číslo"
+
+#: inc/customizer.php:35
+msgid "Select page"
+msgstr "Vybrat stránku"
+
+#: inc/customizer-controls.php:588
+msgid "Close"
+msgstr "Zavřeno"
+
+#: inc/customizer-controls.php:553
+msgid "Change"
+msgstr "Změna"
+
+#: inc/customizer-controls.php:553
+msgid "Add"
+msgstr "Vložit"
+
+#: inc/customizer-controls.php:552 inc/customizer-controls.php:574
+#: inc/customizer-controls.php:586
+msgid "Remove"
+msgstr "Odebrat"
+
+#: inc/customizer-controls.php:321 inc/customizer-controls.php:436
+msgid "Item"
+msgstr "Položka"
+
+#: inc/customizer-controls.php:421
+msgid "Add an item"
+msgstr "Přidat položku"
+
+#: inc/template-tags.php:229
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "Přeskočit na obsah"
+
+#: functions.php:391
+msgid "Please contact the administrator of this site for help."
+msgstr "Pro pomoc, kontaktujte administrátora tohoto webu."
+
+#: functions.php:390
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Všechny pluginy byly úspěšně nainstalovány a aktivovány. %1$s"
+
+#: functions.php:389
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Plugin není aktivován. Pro tuto šablonu je zapotřebí vyšší verze pluginu %s. Aktualizujte tento plugin."
+
+#: functions.php:388
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Nic se nestalo. Plugin %1$s již byl aktivní."
+
+#: functions.php:387
+msgid "The following plugin was activated successfully:"
+msgstr "Následující plugin byl úspěšně aktivován:"
+
+#: functions.php:386
+msgid "Plugin activated successfully."
+msgstr "Plugin byl úspěšně aktivován."
+
+#: functions.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "Návrat do instalátoru požadovaných pluginů"
+
+#: functions.php:384
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Začít aktivaci pluginu"
+msgstr[1] "Začít aktivaci pluginů"
+msgstr[2] "Začít aktivaci pluginů"
+
+#: functions.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Začít aktualizaci pluginu"
+msgstr[1] "Začít aktualizaci pluginů"
+msgstr[2] "Začít aktualizaci pluginů"
+
+#: functions.php:382
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Začít instalaci pluginu"
+msgstr[1] "Začít instalaci pluginů"
+msgstr[2] "Začít instalaci pluginů"
+
+#: functions.php:381
+msgid "Sorry, but you do not have the correct permissions to activate the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %1$s plugins."
+msgstr[0] "Nemáte dostatečné oprávnění pro aktivaci pluginu %1$s."
+msgstr[1] "Nemáte dostatečné oprávnění pro aktivaci pluginů %1$s."
+msgstr[2] "Nemáte dostatečné oprávnění pro aktivaci pluginů %1$s."
+
+#: functions.php:380
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Následující doporučený plugin je v současné době deaktivovaný: %1$s."
+msgstr[1] "Následující doporučené pluginy jsou v současné době deaktivovány: %1$s."
+msgstr[2] "Následující doporučené pluginy jsou v současné době deaktivovány: %1$s."
+
+#: functions.php:379
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Následující požadovaný plugin je v současné době deaktivovaný: %1$s."
+msgstr[1] "Následující požadované pluginy jsou v současné době deaktivovány: %1$s."
+msgstr[2] "Následující požadované pluginy jsou v současné době deaktivovány: %1$s."
+
+#: functions.php:378
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %1$s plugins."
+msgstr[0] "Nemáte dostatečné oprávnění pro aktualizaci pluginu %1$s."
+msgstr[1] "Nemáte dostatečné oprávnění pro aktualizaci pluginů %1$s."
+msgstr[2] "Nemáte dostatečné oprávnění pro aktualizaci pluginů %1$s."
+
+#: functions.php:377
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Aktualizace je k dispozici pro: %1$s."
+msgstr[1] "Aktualizace jsou k dispozici pro: %1$s."
+msgstr[2] "Aktualizace jsou k dispozici pro: %1$s."
+
+#: functions.php:376
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "Následující plugin potřebuje aktualizovat na nejnovější verzi pro zajištění maximální kompatibility s šablonou: %1$s."
+msgstr[1] "Následující pluginy potřebují aktualizovat na nejnovější verzi pro zajištění maximální kompatibility s šablonou: %1$s."
+msgstr[2] "Následující pluginy potřebují aktualizovat na nejnovější verzi pro zajištění maximální kompatibility s šablonou: %1$s."
+
+#: functions.php:375
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %1$s plugins."
+msgstr[0] "Nemáte dostatečné oprávnění pro instalaci pluginu %1$s."
+msgstr[1] "Nemáte dostatečné oprávnění pro instalaci pluginů %1$s."
+msgstr[2] "Nemáte dostatečné oprávnění pro instalaci pluginů %1$s."
+
+#: functions.php:374
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Tato šablona doporučuje následující plugin: %1$s."
+msgstr[1] "Tato šablona doporučuje následující pluginy: %1$s."
+msgstr[2] "Tato šablona doporučuje následující pluginy: %1$s."
+
+#: functions.php:373
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Tato šablona vyžaduje následující plugin: %1$s."
+msgstr[1] "Tato šablona vyžaduje následující pluginy: %1$s."
+msgstr[2] "Tato šablona vyžaduje následující pluginy: %1$s."
+
+#: functions.php:372
+msgid "Something went wrong with the plugin API."
+msgstr "Došlo k potížím s API pluginu."
+
+#: functions.php:371
+msgid "Installing Plugin: %s"
+msgstr "Instalace pluginu: %s"
+
+#: functions.php:370
+msgid "Install Plugins"
+msgstr "Instalovat pluginy"
+
+#: functions.php:369
+msgid "Install Required Plugins"
+msgstr "Instalovat vyžadované pluginy"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Raleway, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:289
+msgctxt "Raleway font: on or off"
+msgid "on"
+msgstr "zapnout"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Open Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:283
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:143
+msgid "Sidebar"
+msgstr "Postranní panel"
+
+#: functions.php:59
+msgid "Primary Menu"
+msgstr "Primární menu"
+
+#: inc/template-tags.php:1345
+msgid "%1$s theme by %2$s"
+msgstr "%1$s šablona od %2$s"
+
+#: inc/template-tags.php:1343
+msgid "Copyright %1$s %2$s %3$s"
+msgstr "Copyright %1$s %2$s %3$s"
+
+#: footer.php:44
+msgid "Back To Top"
+msgstr "Zpět nahoru"
+
+#: inc/customizer.php:867 inc/template-tags.php:1606
+msgid "Join our Newsletter"
+msgstr "Připojte se k našemu newslettru "
+
+#: inc/customizer.php:790 inc/template-tags.php:1625
+msgid "Keep Updated"
+msgstr "Aktualizujte"
+
+#: comments.php:91
+msgid "Comments are closed."
+msgstr "Komentáře jsou uzavřeny."
+
+#: comments.php:59 comments.php:79
+msgid "Newer Comments"
+msgstr "Novější komentáře"
+
+#: comments.php:58 comments.php:78
+msgid "Older Comments"
+msgstr "Starší komentáře"
+
+#: comments.php:55 comments.php:75
+msgid "Comment navigation"
+msgstr "Navigace komentářů"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:37
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "1 komentář u &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s komentáře u &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s komentářů u &ldquo;%2$s&rdquo;"
+
+#. translators: %1$s: smiley
+#: 404.php:51
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Můžete chronologicky prohlížet měsíční archivy. %1$s"
+
+#: 404.php:34
+msgid "Most Used Categories"
+msgstr "Nejpoužívanější rubriky"
+
+#: 404.php:26
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Vypadá to, že se nic nalezeno na tomto místě. Možná zkuste jeden z níže uvedených odkazů, nebo vyhledávání?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Jejda! Tuto stránku nelze nalézt."
+
+#. Author URI of the plugin/theme
+msgid "http://www.famethemes.com"
+msgstr "http://www.famethemes.com"
+
+#. Author of the plugin/theme
+msgid "FameThemes"
+msgstr "FameThemes"
+
+#. Theme URI of the plugin/theme
+msgid "https://www.famethemes.com/themes/onepress/"
+msgstr "https://www.famethemes.com/themes/onepress/"

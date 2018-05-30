@@ -1,0 +1,24 @@
+<wpml-config>
+	<admin-texts>
+			<key name='blogname' />
+			<key name='blogdescription' />
+			<key name='cta_welcome_text' />
+			<key name='cta_welcome_text_p' />
+			<key name='features_head_text_settings' />
+			<key name='features_one_settings' />
+			<key name='features_one_para_settings' />
+			<key name='features_two_setting' />
+			<key name='features_two_para_settings' />
+			<key name='features_three_setting' />
+			<key name='features_three_para_settings' />
+			<key name='category_dropdown_section' />
+			<key name='porfolio_head_text' />
+			<key name='second_cta_section' />
+			<key name='second_cta_head_text' />
+			<key name='second_cta_button_text' />
+			<key name='blog_dropdown_section' />
+			<key name='blog_head_text' />
+			<key name='email_subscribe_section' />
+			<key name='email_subscribe_header' />
+    </admin-texts>
+</wpml-config>

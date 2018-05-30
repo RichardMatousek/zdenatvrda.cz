@@ -1,0 +1,754 @@
+# Copyright (C) 2015 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tar 0.1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2016-12-25 00:11+0600\n"
+"PO-Revision-Date: 2016-05-19 11:40+0600\n"
+"Language-Team: Asphaltthemes <contact.ashpaltthemes@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_html__;esc_html_e;_n;_x;_ex;printf;sprintf;_ex:1,2c;_x:1,2c;_n:1,2;esc_html_e;_n_noop;_nx_noop;esc_attr_x;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:9
+msgid "404"
+msgstr ""
+
+#: 404.php:13
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: 404.php:21
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:38
+msgid "Try looking in the monthly archives"
+msgstr ""
+
+#: Landing-page.php:22 inc/customizer.php:637
+msgid "Advance. Strong. Reliable"
+msgstr ""
+
+#: Landing-page.php:23 inc/customizer.php:872
+msgid "A clean bloat free WordPress theme for your site"
+msgstr ""
+
+#: Landing-page.php:24 inc/customizer.php:1045
+msgid "Learn More"
+msgstr ""
+
+#: Landing-page.php:37
+msgid "Use this block to show three key features"
+msgstr ""
+
+#: Landing-page.php:43 Landing-page.php:65 Landing-page.php:88
+#: inc/customizer.php:1374 inc/customizer.php:1491 inc/customizer.php:1611
+msgid "Dolore Libero"
+msgstr ""
+
+#: Landing-page.php:44 Landing-page.php:66 Landing-page.php:89
+#: inc/customizer.php:1395 inc/customizer.php:1513 inc/customizer.php:1632
+msgid "Aenean vel justo nulla, at gravida elit. In hac habitasse platea dictumst. Quisque gravida commodo volutpat. Vivamus blandit risus in urna venenatis accumsan."
+msgstr ""
+
+#: Landing-page.php:122 inc/customizer.php:1796
+msgid "See our Portfolio"
+msgstr ""
+
+#: Landing-page.php:154 inc/customizer.php:1917
+msgid "Ultrices ante sagittis nunc senectus libero netus"
+msgstr ""
+
+#: Landing-page.php:159
+msgid "See more"
+msgstr ""
+
+#: Landing-page.php:172 inc/customizer.php:2148
+msgid "Check out blog"
+msgstr ""
+
+#: Landing-page.php:208 inc/customizer.php:2268
+msgid "Aenean vel justo nulla, at gravida elit. In hac habitasse platea dictumst. Quisque gravida commodo volutpat. Vivamus blandit risus in urna venenatis accumsan "
+msgstr ""
+
+#: author.php:16
+msgid "About:"
+msgstr ""
+
+#: author.php:18
+msgid "Website"
+msgstr ""
+
+#: author.php:20
+msgid "Profile"
+msgstr ""
+
+#: author.php:25
+msgid "Posts by"
+msgstr ""
+
+#: author.php:37
+msgid "in"
+msgstr ""
+
+#: author.php:47
+msgid "Read More"
+msgstr ""
+
+#: author.php:53
+msgid "No posts by this author."
+msgstr ""
+
+#: blog.php:14 inc/template-tags.php:67
+#: template-parts/content-page-right-sidebar.php:17
+#: template-parts/content-page.php:14
+msgid "Edit"
+msgstr ""
+
+#: blog.php:51 home.php:52
+msgid "Continue"
+msgstr ""
+
+#: blog.php:63 home.php:65
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: blog.php:64 home.php:66
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: blog.php:70 home.php:72
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: comments.php:39 comments.php:60
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:42 comments.php:63
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:43 comments.php:64
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:76
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:15
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr ""
+
+#: functions.php:50
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:121
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:123
+msgid "Sidebar Widget"
+msgstr ""
+
+#: functions.php:131 inc/customizer.php:93
+msgid "Footer"
+msgstr ""
+
+#: functions.php:133
+msgid "Footer Widget"
+msgstr ""
+
+#: functions.php:141
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: functions.php:143
+msgid "WooCommer Sidebar"
+msgstr ""
+
+#: functions.php:222
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: functions.php:305
+msgid "&laquo; Previous"
+msgstr ""
+
+#: functions.php:306
+msgid "Next &raquo;"
+msgstr ""
+
+#: header.php:27
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:51
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer.php:40 inc/customizer.php:309
+msgid "Site Tagline Color"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Header"
+msgstr ""
+
+#: inc/customizer.php:54
+msgid "Customize your header"
+msgstr ""
+
+#: inc/customizer.php:63
+msgid "Frontpage"
+msgstr ""
+
+#: inc/customizer.php:64
+msgid "This panel allows you to customize entire frontpage"
+msgstr ""
+
+#: inc/customizer.php:73
+msgid "Miscellaneous"
+msgstr ""
+
+#: inc/customizer.php:74
+msgid "Miscellaneous Settings"
+msgstr ""
+
+#: inc/customizer.php:83 inc/customizer.php:2447
+msgid "Basic Settings"
+msgstr ""
+
+#: inc/customizer.php:84
+msgid "Basic Site Settings for the site"
+msgstr ""
+
+#: inc/customizer.php:94
+msgid "Footer Editing"
+msgstr ""
+
+#: inc/customizer.php:131
+msgid "Site Title"
+msgstr ""
+
+#: inc/customizer.php:151 inc/customizer.php:469
+msgid "Color"
+msgstr ""
+
+#: inc/customizer.php:176
+msgid "font size"
+msgstr ""
+
+#: inc/customizer.php:208 inc/customizer.php:367 inc/customizer.php:761
+msgid "Font Thickness"
+msgstr ""
+
+#: inc/customizer.php:239 inc/customizer.php:399 inc/customizer.php:795
+#: inc/customizer.php:997
+msgid "Letter Spacing"
+msgstr ""
+
+#: inc/customizer.php:270 inc/customizer.php:432
+msgid "Word Spacing"
+msgstr ""
+
+#: inc/customizer.php:289
+msgid "Site Tagline"
+msgstr ""
+
+#: inc/customizer.php:336 inc/customizer.php:695 inc/customizer.php:930
+#: inc/customizer.php:1125
+msgid "Font Size"
+msgstr ""
+
+#: inc/customizer.php:451
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/customizer.php:482
+msgid "Navigation"
+msgstr ""
+
+#: inc/customizer.php:483
+msgid "Live preview is not available for these settings, You need to save and refresh the page to see the applied changes"
+msgstr ""
+
+#: inc/customizer.php:505
+msgid "Navigation Text Color"
+msgstr ""
+
+#: inc/customizer.php:530
+msgid "Navigation Text Hover Color"
+msgstr ""
+
+#: inc/customizer.php:553
+msgid "Second level Nav background Color"
+msgstr ""
+
+#: inc/customizer.php:576
+msgid "Bottom border Color"
+msgstr ""
+
+#: inc/customizer.php:590
+msgid "<b>You are missing out on</b> <i><p>Sticky Navigation Option<p></i> <i><p>Center Navigation Option<p></i> <i><p>Top Social Bar<p></i><a class=\"pro\" target=\"_blank\" href=\"http://asphaltthemes.com/#buy_pro\">Upgrade to PRO</a>"
+msgstr ""
+
+#: inc/customizer.php:601
+msgid "Call To Action (CTA) Section"
+msgstr ""
+
+#: inc/customizer.php:624
+msgid "Display CTA Section"
+msgstr ""
+
+#: inc/customizer.php:647
+msgid "H2 Text"
+msgstr ""
+
+#: inc/customizer.php:672 inc/customizer.php:1103 inc/customizer.php:1287
+#: inc/customizer.php:2500
+msgid "Text Color"
+msgstr ""
+
+#: inc/customizer.php:731 inc/customizer.php:963
+msgid "Text Position"
+msgstr ""
+
+#: inc/customizer.php:827 inc/customizer.php:1029
+msgid "Word Spacing Range"
+msgstr ""
+
+#: inc/customizer.php:859
+msgid "Change CTA Background Image"
+msgstr ""
+
+#: inc/customizer.php:884
+msgid "Tagline Text"
+msgstr ""
+
+#: inc/customizer.php:908
+msgid " Color "
+msgstr ""
+
+#: inc/customizer.php:1057
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer.php:1081 inc/customizer.php:2018
+msgid "Button Link"
+msgstr ""
+
+#: inc/customizer.php:1159 inc/customizer.php:2041
+msgid "Button Background Color"
+msgstr ""
+
+#: inc/customizer.php:1182
+msgid "Button Border"
+msgstr ""
+
+#: inc/customizer.php:1203
+msgid "<b>You are missing out on</b> <i><p>2 more CTA Section layout<p></i> <i><p>More Customization Settings<p></i> <i><p>More Frontpage Sections<p></i> <a class=\"pro\" target=\"_blank\" href=\"http://asphaltthemes.com/#buy_pro\">Upgrade to PRO</a>"
+msgstr ""
+
+#: inc/customizer.php:1219
+msgid "Features Block Section"
+msgstr ""
+
+#: inc/customizer.php:1242
+msgid "Display Features Section"
+msgstr ""
+
+#: inc/customizer.php:1255
+msgid "Use this block to show six key features"
+msgstr ""
+
+#: inc/customizer.php:1264 inc/customizer.php:2278
+msgid "Section Head Text"
+msgstr ""
+
+#: inc/customizer.php:1311 inc/customizer.php:2065 inc/customizer.php:2205
+#: inc/customizer.php:2390
+msgid "Section Background Color"
+msgstr ""
+
+#: inc/customizer.php:1334
+msgid "Features Block Head Text Color"
+msgstr ""
+
+#: inc/customizer.php:1358
+msgid "Features Block Paragraph Text Color"
+msgstr ""
+
+#: inc/customizer.php:1383
+msgid "Feature One Head Text"
+msgstr ""
+
+#: inc/customizer.php:1405
+msgid "Block one Paragraph"
+msgstr ""
+
+#: inc/customizer.php:1429 inc/customizer.php:1546 inc/customizer.php:1665
+msgid "Image Link"
+msgstr ""
+
+#: inc/customizer.php:1453
+msgid "Feature One Image"
+msgstr ""
+
+#: inc/customizer.php:1477
+msgid "Display block One"
+msgstr ""
+
+#: inc/customizer.php:1500
+msgid "Block Two Head Text"
+msgstr ""
+
+#: inc/customizer.php:1522
+msgid "Block Two Paragraph"
+msgstr ""
+
+#: inc/customizer.php:1570
+msgid "Feature Two Image"
+msgstr ""
+
+#: inc/customizer.php:1594
+msgid "Display block Two"
+msgstr ""
+
+#: inc/customizer.php:1620
+msgid "Block Three Head Text"
+msgstr ""
+
+#: inc/customizer.php:1641
+msgid "Block Three Paragraph"
+msgstr ""
+
+#: inc/customizer.php:1688
+msgid "Feature Three Image"
+msgstr ""
+
+#: inc/customizer.php:1712
+msgid "Display block Three"
+msgstr ""
+
+#: inc/customizer.php:1728
+msgid "<b>You are missing out on</b> <i><p>2 more Feature Section layout<p></i> <i><p>More Customization Settings<p></i> <i><p>More Frontpage Sections<p></i> <a class=\"pro\" target=\"_blank\" href=\"http://asphaltthemes.com/#buy_pro\">Upgrade to PRO</a>"
+msgstr ""
+
+#: inc/customizer.php:1742
+msgid "Portfolio Section"
+msgstr ""
+
+#: inc/customizer.php:1743
+msgid "Select Portfolio category"
+msgstr ""
+
+#: inc/customizer.php:1782
+msgid "Display Portfolio Section"
+msgstr ""
+
+#: inc/customizer.php:1805 inc/customizer.php:1926
+msgid "Customize Head Text"
+msgstr ""
+
+#: inc/customizer.php:1829
+msgid "Head Text Color"
+msgstr ""
+
+#: inc/customizer.php:1854 inc/customizer.php:2651
+msgid "Background Color"
+msgstr ""
+
+#: inc/customizer.php:1868
+msgid "<b>You are missing out on</b> <i><p>2 more Portfolio Section layout<p></i> <i><p>More Frontpage Sections<p></i> <i><p>More Customization Settings<p></i> <a class=\"pro\" target=\"_blank\" href=\"http://asphaltthemes.com/#buy_pro\">Upgrade to PRO</a>"
+msgstr ""
+
+#: inc/customizer.php:1881
+msgid "Second CTA Section"
+msgstr ""
+
+#: inc/customizer.php:1904
+msgid "Display Second CTA Section"
+msgstr ""
+
+#: inc/customizer.php:1949 inc/customizer.php:2302
+msgid " Head Text Color"
+msgstr ""
+
+#: inc/customizer.php:1961
+msgid "SEE MORE"
+msgstr ""
+
+#: inc/customizer.php:1970
+msgid "Customize Button Text"
+msgstr ""
+
+#: inc/customizer.php:1994
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/customizer.php:2082
+msgid "<b>You are missing out on</b> <i><p>2 more Second CTA Section layout<p></i> <i><p>More Frontpage Sections<p></i> <i><p>More Customization Settings<p></i> <a class=\"pro\" target=\"_blank\" href=\"http://asphaltthemes.com/#buy_pro\">Upgrade to PRO</a>"
+msgstr ""
+
+#: inc/customizer.php:2095
+msgid "Blog Section"
+msgstr ""
+
+#: inc/customizer.php:2096
+msgid "Select Blog category"
+msgstr ""
+
+#: inc/customizer.php:2135
+msgid "Display Blog Section"
+msgstr ""
+
+#: inc/customizer.php:2157
+msgid "Customize Blog Section Head Text"
+msgstr ""
+
+#: inc/customizer.php:2181
+msgid "Blog Head Text Color"
+msgstr ""
+
+#: inc/customizer.php:2219
+msgid "<b>You are missing out on</b> <i><p>2 more blog layouts<p></i> <i><p>More Frontpage Sections<p></i> <i><p>More Customization Settings<p></i>  <a class=\"pro\" target=\"_blank\" href=\"http://asphaltthemes.com/#buy_pro\">Upgrade to PRO</a>  "
+msgstr ""
+
+#: inc/customizer.php:2234
+msgid "Text Section"
+msgstr ""
+
+#: inc/customizer.php:2257
+msgid "Display Text Section"
+msgstr ""
+
+#: inc/customizer.php:2324
+msgid "Head Text Font Size"
+msgstr ""
+
+#: inc/customizer.php:2360
+msgid "Section Text Alignment"
+msgstr ""
+
+#: inc/customizer.php:2405
+msgid "<b>You are missing out on</b> <i><p>2 more Text Section layout<p></i> <i><p>More Frontpage Sections<p></i> <i><p>More Customization Settings<p></i> <a class=\"pro\" target=\"_blank\" href=\"http://asphaltthemes.com/#buy_pro\">Upgrade to PRO</a>"
+msgstr ""
+
+#: inc/customizer.php:2424
+#, php-format
+msgid ""
+"<h2>To Setup frontpage, Go to:</h2></br>\n"
+"\t\t<ul>\n"
+"\t\t<li><b>Dashboard -> Pages -> Add New</b></li>\n"
+"\t\t<li>On the right, you will find a box titled <b>Page Attributes</b></li>\n"
+"\t\t<li>Select <b>Front Page Template</b> from the dropdown <b>Template</b> options</li>\n"
+"\t\t<li>Type Page title & click on <b>Publish</b></li>\n"
+"\t\t<li>Go to <b>Dashboard -> Settings -> Reading -> Front page displays </b></li>\n"
+"\t\t<li>Select <b>A static page(select below)</b> </li>\n"
+"\t\t<li>Then select the page with <b>\"Front Page Template\"</b> as <b>Front Page</b></li>\n"
+"\t\t<li>Click on <b>Save & Publish</b> and you are done.</li>\n"
+"\t\t<li>Still struggling? Follow the documentation <a target=\"_blank\" href=\"%s\">Front Page Setup Documentation</a>\n"
+"\t\t</ul></br>"
+msgstr ""
+
+#: inc/customizer.php:2454
+msgid "Site Settings"
+msgstr ""
+
+#: inc/customizer.php:2456
+msgid "Basic site settings that will reflect styles (ex: font-family, color etc) throughout the site"
+msgstr ""
+
+#: inc/customizer.php:2475
+msgid "Font-Family"
+msgstr ""
+
+#: inc/customizer.php:2523
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer.php:2547
+msgid "Link hover Color"
+msgstr ""
+
+#: inc/customizer.php:2577
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/customizer.php:2579
+msgid "<b>Note: </b>With WP 4.7, WordPress implemented Custom CSS by default. Copy all these CSS codes to <i>Additional CSS</i> field to prevent loosing styling changes. In future this field will be removed."
+msgstr ""
+
+#: inc/customizer.php:2593
+msgid "Add custom CSS here"
+msgstr ""
+
+#: inc/customizer.php:2610
+msgid ""
+"<b>You are missing out on</b>\n"
+"\t\t\t \t<i><p>28 Frontpage Section<p></i> \n"
+"\t\t\t \t<i><p>Drag & Drop Frontpage Sections<p></i>\n"
+"\t\t\t \t<i><p>Header & Footer Social Bar & Social section<p></i>\n"
+"\t\t\t \t<i><p>Plugin Compatibility<p></i>\n"
+"\t\t\t \t<i><p>More Widget Areas<p></i>\n"
+"\t\t\t \t<i><p>Shortcodes & Widget<p></i>\n"
+"\t\t\t \t<i><p>Schema Markup Integration<p></i>\n"
+"\t\t\t \t<i><p>More Page & Post layouts<p></i>\n"
+"\t\t\t \t<a class=\"pro\" target=\"_blank\" href=\"http://asphaltthemes.com/#buy_pro\">Upgrade to PRO</a>"
+msgstr ""
+
+#: inc/customizer.php:2630
+msgid "Footer Customization"
+msgstr ""
+
+#: inc/customizer.php:2666
+msgid "For <a class=\"pro\" target=\"_blank\" href=\"http://asphaltthemes.com/#buy_pro\">PRO</a> users only"
+msgstr ""
+
+#: inc/customizer.php:2668
+msgid "Background Image"
+msgstr ""
+
+#: inc/customizer.php:2689
+msgid "Widget H2 Color"
+msgstr ""
+
+#: inc/customizer.php:2714
+msgid "Widget H2 Font Size"
+msgstr ""
+
+#: inc/customizer.php:2744
+msgid "Widget Link Color"
+msgstr ""
+
+#: inc/customizer.php:2768
+msgid "Widget Text Color"
+msgstr ""
+
+#: inc/customizer.php:2782
+msgid "<b>You are missing out on</b> <i><p>Footer Social Bar<p></i> <a class=\"pro\" target=\"_blank\" href=\"http://asphaltthemes.com/#buy_pro\">Upgrade to PRO</a>"
+msgstr ""
+
+#: inc/customizer.php:2794
+msgid "Go Premium"
+msgstr ""
+
+#: inc/customizer.php:2805
+#, php-format
+msgid ""
+"<h2>Upgrade To PRO Version For</h2></br>\n"
+"\t\t<ol class=\"go_pro_customizer\">\n"
+"\t\t<li>28 Front Page Section</li>\n"
+"\t\t<li>Drag & Drop Front Page Sections</li>\n"
+"\t\t<li>Schema Markup Integration</li>\n"
+"\t\t<li>Popular Plugins Compatibility</li>\n"
+"\t\t<li>6 Widget Area</li>\n"
+"\t\t<li>3 Blog Page Layout</li>\n"
+"\t\t<li>4 Posts Layout</li>\n"
+"\t\t<li>7 Page Layout</li>\n"
+"\t\t<li>Extended Customization</li>\n"
+"\t\t<li>Shortcodes & Widget</li>\n"
+"\t\t<li>Fast Support</li>\n"
+"\t\t<p> <a target=\"_blank\" href=\"%s\">Upgrade To Pro</a> to unlock all features</p>\n"
+"\t\t</ol></br>"
+msgstr ""
+
+#: inc/template-tags.php:27
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:32
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:49 inc/template-tags.php:55
+msgid " "
+msgstr ""
+
+#: inc/template-tags.php:51
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:51
+#, php-format
+msgid "<span class=\"cat-links\">"
+msgstr ""
+
+#: inc/template-tags.php:57
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:57
+#, php-format
+msgid "<span class=\"tags-links\">"
+msgstr ""
+
+#: inc/template-tags.php:63
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:63
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:63
+msgid "% Comments"
+msgstr ""
+
+#: search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:18
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page-right-sidebar.php:37
+#: template-parts/content-page.php:27 template-parts/content-single.php:32
+#: template-parts/content.php:34
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-search.php:12 template-parts/content.php:12
+#, php-format
+msgid "<h2 class=\"entry-title\"><a href=\"%s\" rel=\"bookmark\">"
+msgstr ""
+
+#: template-parts/content.php:27
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""

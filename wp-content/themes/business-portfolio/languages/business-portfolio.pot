@@ -1,0 +1,896 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Business Portfolio\n"
+"POT-Creation-Date: 2018-03-19 06:18+0545\n"
+"PO-Revision-Date: 2018-03-19 06:18+0545\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:30
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:47
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive.php:29
+msgid "<span class=\"fa fa-angle-left\" aria-hidden=\"true\">&laquo;</span>"
+msgstr ""
+
+#: archive.php:30
+msgid "<span class=\"fa fa-angle-right\" aria-hidden=\"true\">&raquo;</span>"
+msgstr ""
+
+#: comments.php:29 comments.php:51
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:62
+msgid "Copyright"
+msgstr ""
+
+#: functions.php:51
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:52
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:110
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:112 functions.php:122 functions.php:131
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:120
+msgid "Footer One"
+msgstr ""
+
+#: functions.php:129
+msgid "Google map iframe"
+msgstr ""
+
+#: functions.php:250
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:302
+msgid "Name"
+msgstr ""
+
+#: functions.php:304
+msgid "Email"
+msgstr ""
+
+#: functions.php:306
+msgid "Website"
+msgstr ""
+
+#: functions.php:315
+msgid "Comment"
+msgstr ""
+
+#: header.php:91
+msgid "Add a menu"
+msgstr ""
+
+#: inc/breadcrumb.php:245
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/breadcrumb.php:708
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/breadcrumb.php:725
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/breadcrumb.php:742
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/breadcrumb.php:758 inc/breadcrumb.php:787 inc/breadcrumb.php:814
+#: inc/breadcrumb.php:841 inc/breadcrumb.php:1182
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/breadcrumb.php:759 inc/breadcrumb.php:815 inc/breadcrumb.php:1186
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/breadcrumb.php:760 inc/breadcrumb.php:1190
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/breadcrumb.php:788
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/customizer-advanced.php:9
+msgid "Theme Color"
+msgstr ""
+
+#: inc/customizer-advanced.php:19
+msgid "Google Font Family"
+msgstr ""
+
+#: inc/customizer-advanced.php:20
+msgid "business-portfolio Typography"
+msgstr ""
+
+#: inc/customizer-advanced.php:25
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer-advanced.php:36
+msgid "Choose Font Family "
+msgstr ""
+
+#: inc/customizer-front.php:6
+msgid "Front Page Options"
+msgstr ""
+
+#: inc/customizer-front.php:7
+msgid "Front Page Options."
+msgstr ""
+
+#: inc/customizer-front.php:18
+msgid "Front Service Section"
+msgstr ""
+
+#: inc/customizer-front.php:19
+msgid "Select pages for Service section, you can also change the icon per page"
+msgstr ""
+
+#: inc/customizer-front.php:32
+msgid "Enable Service Section"
+msgstr ""
+
+#: inc/customizer-front.php:46
+msgid "Select Page for Service Title and Description"
+msgstr ""
+
+#: inc/customizer-front.php:62
+msgid "Select First Page for Service Section"
+msgstr ""
+
+#: inc/customizer-front.php:75
+msgid "Icon For Service 1"
+msgstr ""
+
+#. translators: %s: Description
+#: inc/customizer-front.php:77 inc/customizer-front.php:388
+#: inc/customizer-front.php:418 inc/customizer-front.php:448
+#: inc/customizer-front.php:479 inc/customizer-front.php:1127
+#, php-format
+msgid "Use font awesome icon: Eg: %1$s. %2$s See more here %3$s"
+msgstr ""
+
+#: inc/customizer-front.php:91
+msgid "Select Second Page for Service Section"
+msgstr ""
+
+#: inc/customizer-front.php:104
+msgid "Icon For Service 2"
+msgstr ""
+
+#: inc/customizer-front.php:105 inc/customizer-front.php:1155
+msgid "Font awesome Icon 2 eg fa fa-question"
+msgstr ""
+
+#: inc/customizer-front.php:119
+msgid "Select Third Page for Service Section"
+msgstr ""
+
+#: inc/customizer-front.php:132
+msgid "Icon For Service 3"
+msgstr ""
+
+#: inc/customizer-front.php:133 inc/customizer-front.php:1183
+msgid "Font awesome Icon 3 eg fa fa-question"
+msgstr ""
+
+#: inc/customizer-front.php:147
+msgid "Select Fourth Page for Service Section"
+msgstr ""
+
+#: inc/customizer-front.php:160
+msgid "Icon For Service 4"
+msgstr ""
+
+#: inc/customizer-front.php:161
+msgid "Font awesome Icon 4"
+msgstr ""
+
+#: inc/customizer-front.php:179
+msgid "Front About Section"
+msgstr ""
+
+#: inc/customizer-front.php:180
+msgid "Select pages for About section, you can also change the icon per page"
+msgstr ""
+
+#: inc/customizer-front.php:191
+msgid "Enable About Us"
+msgstr ""
+
+#: inc/customizer-front.php:205
+msgid "Select Page for About Title & Short Description"
+msgstr ""
+
+#: inc/customizer-front.php:206
+msgid "This section need to enable first!!"
+msgstr ""
+
+#. translators: %s: Label
+#: inc/customizer-front.php:223
+#, php-format
+msgid "Select Page for About Tab  %s"
+msgstr ""
+
+#: inc/customizer-front.php:244
+msgid "Front Skill Section"
+msgstr ""
+
+#: inc/customizer-front.php:245
+msgid "Fill the Value for skill Section"
+msgstr ""
+
+#: inc/customizer-front.php:257
+msgid "Enable Skill Section"
+msgstr ""
+
+#: inc/customizer-front.php:270
+msgid "Select Page for Some info Heading and description"
+msgstr ""
+
+#. translators: %s: Description
+#: inc/customizer-front.php:287
+#, php-format
+msgid "Skill Title  %s"
+msgstr ""
+
+#. translators: %s: Description
+#: inc/customizer-front.php:301
+#, php-format
+msgid "Skill Percentage  %s"
+msgstr ""
+
+#: inc/customizer-front.php:318
+msgid "Front Why Choose Section"
+msgstr ""
+
+#: inc/customizer-front.php:319
+msgid "Fill the Value for Why Choose Section"
+msgstr ""
+
+#: inc/customizer-front.php:331
+msgid "Enable Why choose us Section"
+msgstr ""
+
+#: inc/customizer-front.php:345
+msgid "Why Choose Us Youtube Link"
+msgstr ""
+
+#: inc/customizer-front.php:346
+msgid "Input the youtube Link(Eg:-https://www.youtube.com/watch?v=wZWiRoktNWA)"
+msgstr ""
+
+#: inc/customizer-front.php:359
+msgid "Select Page for Why Choose Us Heading & Description"
+msgstr ""
+
+#: inc/customizer-front.php:372
+msgid "Why Choose Us title 1"
+msgstr ""
+
+#: inc/customizer-front.php:373 inc/customizer-front.php:403
+#: inc/customizer-front.php:433 inc/customizer-front.php:464
+msgid "Input the title"
+msgstr ""
+
+#: inc/customizer-front.php:386
+msgid "Icon For Why Choose us Count 1"
+msgstr ""
+
+#: inc/customizer-front.php:402
+msgid "Why Choose us title 2"
+msgstr ""
+
+#: inc/customizer-front.php:416
+msgid "Icon For Why Choose us Count 2"
+msgstr ""
+
+#: inc/customizer-front.php:432
+msgid "Why Choose us title 3"
+msgstr ""
+
+#: inc/customizer-front.php:446
+msgid "Icon For Why Choose us Count 3"
+msgstr ""
+
+#: inc/customizer-front.php:463
+msgid "Why Choose us title 4"
+msgstr ""
+
+#: inc/customizer-front.php:477
+msgid "Icon For Why Choose us Count 4"
+msgstr ""
+
+#: inc/customizer-front.php:493
+msgid "Front Lovely Team Section"
+msgstr ""
+
+#: inc/customizer-front.php:494
+msgid "Select pages for Lovely Team section"
+msgstr ""
+
+#: inc/customizer-front.php:507
+msgid "Enable Lovely Team Section"
+msgstr ""
+
+#: inc/customizer-front.php:521
+msgid "Select Page for Lovely Team Title & Description"
+msgstr ""
+
+#. translators: %s: Description
+#: inc/customizer-front.php:539
+#, php-format
+msgid "Select Lovely Team Page %s"
+msgstr ""
+
+#: inc/customizer-front.php:552
+msgid "Select Designation"
+msgstr ""
+
+#: inc/customizer-front.php:553
+msgid ""
+"Designation like Creative Director,Web Developer,Server Administor,UI/UX "
+"Design"
+msgstr ""
+
+#: inc/customizer-front.php:566
+msgid "Facebook Url for Team"
+msgstr ""
+
+#: inc/customizer-front.php:567
+msgid "Facebook Url like(https://facebook.com)"
+msgstr ""
+
+#: inc/customizer-front.php:580
+msgid "Twitter Url for Team"
+msgstr ""
+
+#: inc/customizer-front.php:581
+msgid "Twitter Url like(https://twitter.com)"
+msgstr ""
+
+#: inc/customizer-front.php:595
+msgid "Dribble Url for Team"
+msgstr ""
+
+#: inc/customizer-front.php:596
+msgid "Twitter Url like(https://dribble.com)"
+msgstr ""
+
+#: inc/customizer-front.php:610
+msgid "Instagram Url for Team"
+msgstr ""
+
+#: inc/customizer-front.php:611
+msgid "Instagram Url like(https://instagram.com)"
+msgstr ""
+
+#: inc/customizer-front.php:627
+msgid "Front Testimonial Section"
+msgstr ""
+
+#: inc/customizer-front.php:628
+msgid "Select pages for Testimonial section"
+msgstr ""
+
+#: inc/customizer-front.php:641
+msgid "Enable Testimonial Us"
+msgstr ""
+
+#: inc/customizer-front.php:659
+msgid "Select Background Image For Testimonials"
+msgstr ""
+
+#. translators: %s: Description
+#: inc/customizer-front.php:679
+#, php-format
+msgid "Select Testimonial Page %s"
+msgstr ""
+
+#. translators: %s: Description
+#: inc/customizer-front.php:694
+#, php-format
+msgid "Select Designation or Company Name %s"
+msgstr ""
+
+#: inc/customizer-front.php:695
+msgid "Position like Developer, CEO MD"
+msgstr ""
+
+#: inc/customizer-front.php:712
+msgid "Front Portfolio Section"
+msgstr ""
+
+#: inc/customizer-front.php:713
+msgid ""
+"Select pages for Portfolio section, you can also change the icon per page"
+msgstr ""
+
+#: inc/customizer-front.php:726
+msgid "Enable Portfolio Us"
+msgstr ""
+
+#: inc/customizer-front.php:740
+msgid "Select Page for Portfolio Heading & Description"
+msgstr ""
+
+#: inc/customizer-front.php:754
+msgid "Select Category for Portfolio"
+msgstr ""
+
+#: inc/customizer-front.php:767
+msgid "Number of portfolio to Show in front Page"
+msgstr ""
+
+#: inc/customizer-front.php:768 inc/customizer-front.php:996
+msgid "input 3,4,5,6,7,8,9"
+msgstr ""
+
+#: inc/customizer-front.php:783
+msgid "Front Counter Section"
+msgstr ""
+
+#: inc/customizer-front.php:784
+msgid "Fill the Value for Counter Section"
+msgstr ""
+
+#: inc/customizer-front.php:796
+msgid "Enable Counter Section"
+msgstr ""
+
+#: inc/customizer-front.php:809
+msgid "Select Page for Counter Heading & Description"
+msgstr ""
+
+#: inc/customizer-front.php:822
+msgid "Counter count 1"
+msgstr ""
+
+#: inc/customizer-front.php:823 inc/customizer-front.php:852
+#: inc/customizer-front.php:881 inc/customizer-front.php:911
+msgid "Input the Number"
+msgstr ""
+
+#: inc/customizer-front.php:836
+msgid "Counter Field 1"
+msgstr ""
+
+#: inc/customizer-front.php:837 inc/customizer-front.php:866
+#: inc/customizer-front.php:895 inc/customizer-front.php:925
+msgid "Input Value"
+msgstr ""
+
+#: inc/customizer-front.php:851
+msgid "Counter count 2"
+msgstr ""
+
+#: inc/customizer-front.php:865
+msgid "Counter Field 2"
+msgstr ""
+
+#: inc/customizer-front.php:880
+msgid "Counter count 3"
+msgstr ""
+
+#: inc/customizer-front.php:894
+msgid "Counter Field 3"
+msgstr ""
+
+#: inc/customizer-front.php:910
+msgid "Counter count 4"
+msgstr ""
+
+#: inc/customizer-front.php:924
+msgid "Counter Field 4"
+msgstr ""
+
+#: inc/customizer-front.php:940
+msgid "Front Blog Section"
+msgstr ""
+
+#: inc/customizer-front.php:941
+msgid "Select pages for Blog section, you can also change the icon per page"
+msgstr ""
+
+#: inc/customizer-front.php:954
+msgid "Enable Blog Us"
+msgstr ""
+
+#: inc/customizer-front.php:968
+msgid "Select Page for Blog Heading & Description"
+msgstr ""
+
+#: inc/customizer-front.php:982
+msgid "Select Category for Blog"
+msgstr ""
+
+#: inc/customizer-front.php:995
+msgid "Number of blog to Show in front Page"
+msgstr ""
+
+#: inc/customizer-front.php:1011
+msgid "Front Contact Section"
+msgstr ""
+
+#: inc/customizer-front.php:1024
+msgid "Enable Contact Section"
+msgstr ""
+
+#: inc/customizer-front.php:1039
+msgid "Select First Page for Call to Section"
+msgstr ""
+
+#: inc/customizer-front.php:1052
+msgid "Contact Section Use Shortcode"
+msgstr ""
+
+#: inc/customizer-front.php:1053
+msgid "eg [contact-form-7 id=\"108\" title=\"Contact form 1\"]"
+msgstr ""
+
+#: inc/customizer-front.php:1068
+msgid "Front Location Section"
+msgstr ""
+
+#: inc/customizer-front.php:1069
+msgid ""
+"Select pages for Location section, you can also change the icon per page"
+msgstr ""
+
+#: inc/customizer-front.php:1082
+msgid "Enable Location Section"
+msgstr ""
+
+#: inc/customizer-front.php:1096
+msgid "Select Page for Location Title and Description"
+msgstr ""
+
+#: inc/customizer-front.php:1112
+msgid "Select First Page for Location Section"
+msgstr ""
+
+#: inc/customizer-front.php:1125
+msgid "Icon For Location 1"
+msgstr ""
+
+#: inc/customizer-front.php:1141
+msgid "Select Second Page for Location Section"
+msgstr ""
+
+#: inc/customizer-front.php:1154
+msgid "Icon For Location 2"
+msgstr ""
+
+#: inc/customizer-front.php:1169
+msgid "Select Third Page for Location Section"
+msgstr ""
+
+#: inc/customizer-front.php:1182
+msgid "Icon For Location 3"
+msgstr ""
+
+#: inc/customizer-front.php:1198
+msgid "Front News Letter Section"
+msgstr ""
+
+#: inc/customizer-front.php:1199
+msgid "Select pages for News Letter section"
+msgstr ""
+
+#: inc/customizer-front.php:1212
+msgid "Enable News Letter Section"
+msgstr ""
+
+#: inc/customizer-front.php:1226
+msgid "Select Page for News Letter Title and Description"
+msgstr ""
+
+#: inc/customizer-front.php:1239
+msgid "News Letter Section Use Shortcode"
+msgstr ""
+
+#: inc/customizer-front.php:1240
+msgid "eg [contact-form-7 id=\"281\" title=\"NewsLetter\"]"
+msgstr ""
+
+#: inc/customizer-front.php:1255
+msgid "Front Client Section"
+msgstr ""
+
+#: inc/customizer-front.php:1256
+msgid "Select Category for Client Section"
+msgstr ""
+
+#: inc/customizer-front.php:1269
+msgid "Enable Client Section"
+msgstr ""
+
+#: inc/customizer-front.php:1284
+msgid "Select Category for Clients"
+msgstr ""
+
+#: inc/customizer-front.php:1297
+msgid "Number of Recent Clients to Show in Front Page"
+msgstr ""
+
+#: inc/customizer-front.php:1298
+msgid "input 3,4,5,6,7,8,9,10"
+msgstr ""
+
+#: inc/customizer.php:33
+msgid "Header Options"
+msgstr ""
+
+#: inc/customizer.php:34
+msgid "Header Option Customizer"
+msgstr ""
+
+#: inc/customizer.php:45
+msgid "Slider Option"
+msgstr ""
+
+#: inc/customizer.php:46
+msgid "This will disable the Main Banner Options."
+msgstr ""
+
+#: inc/customizer.php:60
+msgid "Enable Slider for Header"
+msgstr ""
+
+#. translators: %s: Description
+#: inc/customizer.php:77
+#, php-format
+msgid "Select Page for Slider %s"
+msgstr ""
+
+#. translators: %s: Description
+#: inc/customizer.php:93
+#, php-format
+msgid "Slider %s Text Position"
+msgstr ""
+
+#: inc/customizer.php:94
+msgid "Select Slider Text Postion right, left and center"
+msgstr ""
+
+#: inc/customizer.php:98
+msgid "right"
+msgstr ""
+
+#: inc/customizer.php:99
+msgid "center"
+msgstr ""
+
+#: inc/customizer.php:100
+msgid "left"
+msgstr ""
+
+#. translators: %s: Description
+#: inc/customizer.php:113
+#, php-format
+msgid "First Button Title For Slider %s"
+msgstr ""
+
+#: inc/customizer.php:114
+msgid "Hire Me"
+msgstr ""
+
+#. translators: %s: Description
+#: inc/customizer.php:128
+#, php-format
+msgid "Select URL For button Title 1 of slider  %s"
+msgstr ""
+
+#: inc/customizer.php:129 inc/customizer.php:159 inc/customizer.php:192
+#: inc/customizer.php:207 inc/customizer.php:222 inc/customizer.php:237
+#: inc/customizer.php:251
+msgid "#"
+msgstr ""
+
+#. translators: %s: Description
+#: inc/customizer.php:143
+#, php-format
+msgid "Second Button Title For Slider %s"
+msgstr ""
+
+#: inc/customizer.php:144
+msgid "Contact Us"
+msgstr ""
+
+#. translators: %s: Description
+#: inc/customizer.php:158
+#, php-format
+msgid "Select URL For button Title 2 of slider %s"
+msgstr ""
+
+#: inc/customizer.php:174 inc/customizer.php:175
+msgid "Footer Options"
+msgstr ""
+
+#: inc/customizer.php:183 inc/customizer.php:184
+msgid "Social Links"
+msgstr ""
+
+#: inc/customizer.php:197
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/customizer.php:212
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/customizer.php:227
+msgid "Linkedin URL"
+msgstr ""
+
+#: inc/customizer.php:242
+msgid "Pinterest URL"
+msgstr ""
+
+#: inc/customizer.php:256
+msgid "Youtube URL"
+msgstr ""
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "By %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:62
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:69
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: sections/business-portfolio-blog.php:60 template-parts/content.php:27
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content-none.php:17
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:28
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:41
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:48
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Business Portfolio"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://oceanpressthemes.com/downloads/business-portfolio/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Business Portfolio is multipurpose responsive, customizable and powerful "
+"professional WordPress theme. It can be customized easily in few clicks "
+"using live customizer. Business Portfolio comes with a full-width slider, "
+"easy option to add logo and favicon, custom widgets, full-width template and "
+"more. It is a search engine optimized theme which performs best in google, "
+"bing, yahoo or any other search engines. This theme is suitable for all type "
+"of business, corporate, portfolio, digital agency, blog or any creative "
+"modern looking websites"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "oceanpressthemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://oceanpressthemes.com"
+msgstr ""
