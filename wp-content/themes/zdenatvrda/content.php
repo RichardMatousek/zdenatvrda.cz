@@ -3,6 +3,12 @@
   if ( is_search()|| is_home() || is_archive()
    || is_tag() || is_category() ) :
   ?>
+    
+  <?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
+<div class="entry-thumbnail">
+<?php the_post_thumbnail(); ?>
+</div>
+<?php endif; ?>
  
   <h2 class="title">
     <a href="<?php the_permalink() ?>" 

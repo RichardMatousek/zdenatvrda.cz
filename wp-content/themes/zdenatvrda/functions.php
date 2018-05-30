@@ -41,4 +41,12 @@ register_sidebar(array(
 'after_title' => '</h3>',
 ));
 }
+
+if ( function_exists( 'add_theme_support' ) ) {
+add_theme_support( 'post-thumbnails' );
+set_post_thumbnail_size( 56, 56, true ); // Normal post thumbnails
+add_image_size( 'sidebar', 50, 50, true ); // Sidebar thumbnail
+        add_image_size( 'blog', 619, 300, true ); // Blog thumbnail
+ 
+}
 ?>
