@@ -1,3 +1,4 @@
+<?php
 function register_menu() {
 register_nav_menu('primary-menu', __('Primary Menu','theme'));
 }
@@ -40,3 +41,4 @@ register_sidebar(array(
 'after_title' => '</h3>',
 ));
 }
+?>
