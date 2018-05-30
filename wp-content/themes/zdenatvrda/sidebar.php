@@ -1,20 +1,19 @@
-<?php
-/**
- * The sidebar containing the main widget area
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package WordPress
- * @subpackage Twenty_Seventeen
- * @since 1.0
- * @version 1.0
- */
-
-if ( ! is_active_sidebar( 'sidebar-1' ) ) {
-	return;
-}
-?>
-
-<aside id="secondary" class="widget-area" role="complementary" aria-label="<?php esc_attr_e( 'Blog Sidebar', 'twentyseventeen' ); ?>">
-	<?php dynamic_sidebar( 'sidebar-1' ); ?>
-</aside><!-- #secondary -->
+<?php if ( ! dynamic_sidebar( 'Main Sidebar' ) ) :   ?>
+ 
+<div class="widget widget_search"><!--BEGIN #searchform-->
+    <form method="get" id="searchform" action="/">
+   <fieldset>
+    <input type="text" name="s" id="s" value="search" 
+        onfocus="if(this.value=='search')this.value='';" 
+        onblur="if(this.value=='')this.value='search';" />
+        <input type="submit" name="submit" value="" id="s-submit">
+   </fieldset>
+<!--END #searchform-->
+    </form>
+  </div> 
+ 
+<?php else:                                        
+ 
+dynamic_sidebar( 'Main Sidebar' ); 
+ 
+endif; ?>
