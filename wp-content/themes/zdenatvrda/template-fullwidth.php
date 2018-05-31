@@ -1,6 +1,9 @@
+/*
+Template name: Full width
+ */
 <?php get_header(); ?>
 <div class="row-fluid">
-  <div class="col-xs-12 col-sm-6 col-md-8">
+  <div class="col-xs-12 col-sm-6 col-md-12">
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
   <!--BEGIN .hentry -->
   <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
@@ -20,8 +23,6 @@
  </div>
    <?php endif; ?>
 </div>
-  <div class="col-xs-12 col-sm-6 col-md-4">
-    <?php get_sidebar(); ?>
-  </div>
+  
 </div>
 <?php get_footer(); ?>
