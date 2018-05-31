@@ -14,3 +14,60 @@
  version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
  
 -----------------------------------------------------------------------------------*/
+body{
+  background-color:#dedede;
+}
+ 
+.content-wrap{
+  background-color:#ffffff;
+}
+ 
+img{
+  max-width:100%;
+}
+ 
+/*----------------------------------------------------------------------*/
+/* Main navigation menu */
+/*----------------------------------------------------------------------*/
+.header-menu {float:left;
+  width:100%;
+  margin-top:18px;
+  background-color:#dedede;
+}
+.header-menu ul {float:left;
+  margin:0;
+  padding:0;
+  list-style:none;
+ 
+}
+ 
+.header-menu ul li {float:left;
+  margin:0;
+  padding:0; 
+  position:relative;
+}
+.header-menu ul li a{
+  border-right:solid 1px #d3d3d3;                    
+}
+.header-menu ul li a, 
+.header-menu ul li.pagenav {  
+padding: 0px 20px 0px 20px;
+  color: #333333;
+  float: left;
+  font-size: 14px; 
+  line-height:58px;
+  font-weight:normal;
+  text-transform:uppercase;
+}
+.header-menu ul li:last-child a{border-right:none;}
+.header-menu ul li.current-menu-item a,
+.header-menu ul li a:hover, 
+.header-menu ul li a.active, 
+.header-menu ul li.pagenav:hover {
+  background-color:#ffffff;
+  text-decoration:none;
+}
+ 
+.header-menu ul li ul{
+  display:none;
+}

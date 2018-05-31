@@ -34,6 +34,7 @@
  
 <div class="row-fluid">
   <div class="container">
+   <div class="content-wrap">
     <div class="header">
       <h1><a href="<?php echo home_url( '/' ); ?>" 
         title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
