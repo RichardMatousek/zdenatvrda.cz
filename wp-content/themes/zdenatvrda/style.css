@@ -15,11 +15,11 @@
  
 -----------------------------------------------------------------------------------*/
 body{
-  background-color:#dedede;
+  background: url(images/layoutpozadi2.jpg) repeat-x fixed;
 }
  
 .content-wrap{
-  background-color:#ffffff;
+  background: url(images/layoutpozadi.jpg) repeat-x fixed;
 }
  
 img{
