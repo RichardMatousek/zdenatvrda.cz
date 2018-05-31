@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="row-fluid">
-  <div class="span8">
+  <div class="col-xs-12 col-sm-6 col-md-8">
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
   <!--BEGIN .hentry -->
   <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
@@ -20,7 +20,7 @@
  </div>
    <?php endif; ?>
 </div>
-  <div class="span4">
+  <div class="col-xs-12 col-sm-6 col-md-4">
     <?php get_sidebar(); ?>
   </div>
 </div>

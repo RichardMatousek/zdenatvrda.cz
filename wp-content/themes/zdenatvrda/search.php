@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="row-fluid">
-  <div class="span8">
+  <div class="col-xs-12 col-sm-6 col-md-8">
   
   <h1 id="search-full"><img src="<?php echo get_template_directory_uri(); ?>/images/zoom.png" alt="Zoom" />&nbsp;<?php printf( __( 'Search Results for: "%s"', 'simple' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
   
@@ -45,7 +45,7 @@
   <?php endif; ?>
 	
   </div>
-  <div class="span4">
+  <div class="col-xs-12 col-sm-6 col-md-4">
     <?php get_sidebar(); ?>
   </div>
 </div>
