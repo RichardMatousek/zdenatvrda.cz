@@ -16,7 +16,41 @@
         <?php the_title(); ?>
       </a>
   </h2>
- 
+<!-- Post meta -->
+    <div class="entry-meta">
+      <span class="entry-author">
+        <span class="glyphicon glyphicon-user"></span>
+            <?php the_author_posts_link(); ?>
+      </span>
+      
+      <span class="entry-date">
+        <span class="glyphicon glyphicon-calendar"></span>
+            <?php the_time( 'j.n. Y' ); ?>
+      </span>
+        
+      <span class="entry-comments">
+        <?php comments_popup_link(__('No Comments', 'theme'), 
+        __('1 Comment', 'theme'), 
+        __('% Comments', 'theme')); ?>
+      </span>
+        
+      <span class="entry-category">
+        <?php 
+        $categories = get_the_category();
+        $separator = ', ';
+        $output = '';
+        if($categories){
+        foreach($categories as $category) {
+        $output .= '<a href="'.get_category_link($category->term_id ).'" 
+        title="' . esc_attr( sprintf( __( "View all posts in %s" ), $category->name ) ) . '">'.
+        $category->cat_name.'</a>'.$separator;
+        }
+        echo trim($output, $separator);
+        }
+        ?>
+      </span>
+    </div>
+
       <div class="post-content">
      <?php echo the_excerpt();?>
    </div>
