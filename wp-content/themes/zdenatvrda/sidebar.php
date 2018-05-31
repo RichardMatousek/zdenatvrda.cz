@@ -13,7 +13,5 @@
   </div> 
  
 <?php else:                                        
- 
-dynamic_sidebar( 'Main Sidebar' ); 
- 
+
 endif; ?>

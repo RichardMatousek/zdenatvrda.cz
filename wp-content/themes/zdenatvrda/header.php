@@ -12,7 +12,7 @@
 <meta name="description" content="<?php bloginfo('description'); ?>" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Title -->
-<title><?php wp_title('|', true, 'right'); ?><?php bloginfo('name'); ?></title>
+<title>Zdena Tvrdá - osobní fitness trenérka</title>
  
   <!-- RSS & Pingbacks -->
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo( 'name' ); ?> 
@@ -35,7 +35,7 @@
 <div class="row-fluid">
   <div class="container">
    <div class="content-wrap">
-    <div class="header">
+    <div class="header" style="padding-left: 15px;">
       <h1><a href="<?php echo home_url( '/' ); ?>" 
         title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
          <?php bloginfo( 'name' ); ?></a></h1>
