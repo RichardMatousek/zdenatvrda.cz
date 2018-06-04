@@ -3,6 +3,7 @@ Template name: Full width
  */
 <?php get_header(); ?>
 <div class="row-fluid">
+    <div style="height: 80px;"></div>
   <div class="col-xs-12 col-sm-6 col-md-12">
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
   <!--BEGIN .hentry -->
