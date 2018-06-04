@@ -1,6 +1,4 @@
-/*
-Template name: Full width
- */
+<!-- /* Template name: Full width */ -->
 <?php get_header(); ?>
 <div class="row-fluid">
     <div style="height: 80px;"></div>

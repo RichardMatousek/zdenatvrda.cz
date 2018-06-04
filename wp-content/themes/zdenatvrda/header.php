@@ -35,13 +35,7 @@
 <div class="row-fluid">
   <div class="container">
    <div class="content-wrap">
-    <div class="header" style="padding-left: 15px;">
-      <h1><a href="<?php echo home_url( '/' ); ?>" 
-        title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-         <?php bloginfo( 'name' ); ?></a></h1>
-    <div id="site-description"><?php bloginfo( 'description' ); ?></div>  
-    </div>
- 
+    
     <div class="header-menu">
           <?php if ( has_nav_menu( 'primary-menu' ) ) { ?>
             <?php wp_nav_menu( array( 'theme_location' => 'primary-menu') ); ?>
