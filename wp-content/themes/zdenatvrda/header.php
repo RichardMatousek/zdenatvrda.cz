@@ -33,9 +33,6 @@
 <body <?php body_class(); ?>>
  
 <div class="row-fluid">
-  <div class="container">
-   <div class="content-wrap">
-    
     <div class="header-menu">
           <?php if ( has_nav_menu( 'primary-menu' ) ) { ?>
             <?php wp_nav_menu( array( 'theme_location' => 'primary-menu') ); ?>
@@ -47,5 +44,7 @@
                   </ul>
           <?php } ?>
     </div>
- 
+  <div class="container">
+   <div class="content-wrap">
+    
     <div class="row-fluid">

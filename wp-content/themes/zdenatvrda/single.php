@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div style="height: 75px;"></div>
+<div style="height: 115px;"></div>
 <div class="row-fluid">
   <div class="col-xs-12 col-sm-6 col-md-8">
  <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
