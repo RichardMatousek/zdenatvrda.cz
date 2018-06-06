@@ -16,8 +16,7 @@
 </div>
  
 <div id="obal">
-<div id="obsah">
-    
+
      <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
  <?php get_template_part( 'content', get_post_format() ); ?>
 <!--BEGIN .entry-content -->
@@ -34,8 +33,7 @@ something that isn't here.", "theme") ?></p>
 </div>
 <?php endif; ?>
  
-</div>
- 
+
 <div id="ctyrprogram">
 	<div id="program1">
 		<h3>Pro začátečnice</h3>

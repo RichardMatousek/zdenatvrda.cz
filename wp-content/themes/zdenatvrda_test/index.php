@@ -12,7 +12,7 @@
          Absolutní vítězka GP Oděsa 1998.<br>
          Účastnice nejvyšší profesionální kulturistické soutěže žen,<br>
          Olympia 1997 v New Yorku a 1998 v Praze.</p>
-         <a class="tlacitko" href="o-mne.php" title="Osobní tréninky pro pokročilé">Více o mně</a>
+         <a class="tlacitko" href="o-mne" title="Osobní tréninky pro pokročilé">Více o mně</a>
         <div id="uvodni-info-odznak"></div>
 
       <div id="vyberte">
@@ -34,7 +34,7 @@
  <h3>Pro začátečnice</h3>
  <p>Do fitness centra pravidelně nechodíte, případně jste v něm nikdy nebyla? Pojďme začít společně. Tento trénink je určený přesně pro vás.</p>
  <a class="tlacitko form" href="formular.php?var=Osobní tréninky pro začátečnice" title="Osobní tréninky pro začátečnice">Jdu do toho!</a>
-<a class="na-program" href="pro-zacatecnice.php" title="Osobní tréninky pro začátečnice">Více o programu</a>
+<a class="na-program" href="treninky" title="Osobní tréninky pro začátečnice">Více o programu</a>
  </div>
 
  <div id="prostredni">
@@ -42,7 +42,7 @@
  <h3>Pro pokročilé</h3>
  <p> Sport je vaší oblíbenou zábavou a víte, že díky němu budete vypadat skvěle co nejdéle? Pojďte se mnou čelit novým výzvám a posunout své hranice.</p>
  <a class="tlacitko form" href="formular.php?var=Osobní tréninky pro pokročilé" title="Osobní tréninky pro pokročilé">Jdu do toho!</a>
-  <a class="na-program" href="pro-pokrocile.php" title="Osobní tréninky pro pokročilé">Více o programu</a>
+  <a class="na-program" href="treninky" title="Osobní tréninky pro pokročilé">Více o programu</a>
  </div>
 
  <div id="pravy">
@@ -50,7 +50,7 @@
  <h3>Pro zkušené</h3>
  <p>Život bez sportu si nedovedete vůbec představit a věnujete mu většinu volného času. Pomohu vám připravit se i na ty nejodvážnější výzvy a cíle.</p>
  <a class="tlacitko form" href="formular.php?var=Osobní tréninky pro zkušené" title="Osobní tréninky pro zkušené">Jdu do toho!</a>
-  <a class="na-program" href="pro-pokrocile.php" title="Osobní tréninky pro pokročilé">Více o programu</a>
+  <a class="na-program" href="treninky" title="Osobní tréninky pro pokročilé">Více o programu</a>
  </div>
 </div>
 

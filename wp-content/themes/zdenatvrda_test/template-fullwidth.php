@@ -12,15 +12,11 @@
 <div></div>
 
 <div id="obal">
-<div id="obsah">
-       
+
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
   <!--BEGIN .hentry -->
-  <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
-        <h1 class="page-title"><?phpthe_title(); ?></h1>
-<div class="entry-content">
+  <div>
           <?php the_content(); ?>
-</div>
 </div>
 <?php endwhile; else: ?>
 <div id="post-0" <?php post_class() ?>>
@@ -33,8 +29,7 @@
  </div>
    <?php endif; ?>
   
-</div>
- 
+
 <div id="ctyrprogram">
 	<div id="program1">
 		<h3>Pro začátečnice</h3>
