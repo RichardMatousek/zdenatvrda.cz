@@ -1,8 +1,8 @@
 /*-----------------------------------------------------------------------------------
  
-  Theme Name: zdenatvrda
+  Theme Name: zdenatvrda_test
   Theme URI: 
-  Description: 2 column theme 
+  Description: testovací verze 
   Author: Author
   Author URI: 
   License: GNU General Public License version 3.0
@@ -14,71 +14,10 @@
  version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
  
 -----------------------------------------------------------------------------------*/
-body{
-  background: url(images/layoutpozadi2.jpg) repeat fixed;
-  color: white;
-}
- 
-.content-wrap{
-  background: url(images/layoutpozadi.jpg) repeat fixed;
-  padding-top: 30px;
-}
- 
-img{
-  max-width:100%;
-}
- 
-/*----------------------------------------------------------------------*/
-/* Main navigation menu */
-/*----------------------------------------------------------------------*/
-.header-menu {
-    float:left;
-    height: 102px;
-    width: 100%;
-    background-color: #171717;
-    position: fixed;
-    text-decoration: none;
-    z-index: 4;
-}
-.header-menu ul {width: 960px;
-    height: 57.778px;
-    margin: 40px auto 0 auto;
-    list-style: none;
-    padding-left: 0px;
-}
- 
-.header-menu ul li {float:left;
-  margin:0;
-  padding:0; 
-  position:relative;
-}
-.header-menu ul li a{
-  border-right:solid 2px #171717;                    
-}
-.header-menu ul li a, 
-.header-menu ul li.pagenav {  
-padding: 0px 20px 0px 20px;
-  color: #ffffff;
-  float: left;
-  font-size: 14px; 
-  line-height:58px;
-  font-weight:normal;
-  text-transform:uppercase;
-}
-.header-menu ul li:last-child a{border-right:none;}
-.header-menu ul li.current-menu-item a,
-.header-menu ul li a:hover, 
-.header-menu ul li a.active, 
-.header-menu ul li.pagenav:hover {
-  background-color:#171717;
-  text-decoration:none;
-}
- 
-.header-menu ul li ul{
-  display:none;
-}
+
 
 /* Styly ze zdenatvrda.cz */
+/* <img src="http://localhost/wp-content/themes/zdenatvrda_test/images/nahledy/zdena-tvrda-02.jpg" alt="" class="alignnone size-full wp-image-1743" alt="Zdena Tvrdá"> */
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -133,7 +72,7 @@ nav ul li a {
 	float: left;
 	text-decoration: none;
 	padding: 6px 10px 6px 36px;
-  background: url(grafika/navisedivy.png) no-repeat left 5px  center;
+  background: url(images/navisedivy.png) no-repeat left 5px  center;
     -webkit-transition: all  0.5s; /* For Safari 3.1 to 6.0 */
     transition: all 0.5s;
 }
@@ -143,12 +82,12 @@ nav ul li a:hover {
 
 nav ul li a#druhy {
 	border-left: 1px solid grey;
-  background: url(grafika/navimodry.png) no-repeat left 5px  center;
+  background: url(images/navimodry.png) no-repeat left 5px  center;
 }
 
 nav ul li a#treti {
 	border-left: 1px solid grey;
-  background: url(grafika/navicerveny.png) no-repeat left 5px center;
+  background: url(images/navicerveny.png) no-repeat left 5px center;
 }
 
 nav ul {
@@ -217,7 +156,7 @@ a.button01 {
   float: left;
   height:   ;
   width: ;
-  background: url(grafika/navisedivy.png) no-repeat left center;
+  background: url(images/navisedivy.png) no-repeat left center;
   -webkit-transition: all  0.5s; /* For Safari 3.1 to 6.0 */
 }
 
@@ -226,7 +165,7 @@ a.button02 {
   float: left;
   height:   ;
   width: ;
-  background: url(grafika/navimodry.png) no-repeat left center;
+  background: url(images/navimodry.png) no-repeat left center;
 }
 
 a.button03 {
@@ -234,19 +173,19 @@ a.button03 {
   float: left;
   height:   ;
   width: ;
-  background: url(grafika/navicerveny.png) no-repeat left center;
+  background: url(images/navicerveny.png) no-repeat left center;
 }
 
 #layoutpozadi {
   height: 861px;
-  background: url(grafika/layoutpozadi2.jpg) repeat-x fixed;
+  background: url(images/layoutpozadi2.jpg) repeat-x fixed;
   padding: 102px 0 0 0;
 
 }
 
 #layoutpozadi-sekce {
-  height: 205px;
-  background: url(grafika/layoutpozadi-sekce.jpg) repeat-x fixed;
+  height: 300px;
+  background: url(images/layoutpozadi-sekce.jpg) repeat-x fixed;
   padding: 102px 0 0 0;
 }
 
@@ -359,7 +298,7 @@ a.button03 {
 }
 
 #uvodni-diamond-sedy {
-  background: url(grafika/diamondis-sekce.png) no-repeat;
+  background: url(images/diamondis-sekce.png) no-repeat;
   height: 157px;
   width: 157px;
   position: absolute;
@@ -368,7 +307,7 @@ a.button03 {
 }
 
 #uvodni-diamond-modry {
-  background: url(grafika/diamondim-sekce.png) no-repeat;
+  background: url(images/diamondim-sekce.png) no-repeat;
   height: 157px;
   width: 157px;
   position: absolute;
@@ -377,7 +316,7 @@ a.button03 {
 }
 
 #uvodni-diamond-cerveny {
-  background: url(grafika/diamondic-sekce.png) no-repeat;
+  background: url(images/diamondic-sekce.png) no-repeat;
   height: 157px;
   width: 157px;
   position: absolute;
@@ -385,7 +324,7 @@ a.button03 {
   margin-left: 70px;
 }
 #uvodni-diamond-zeleny {
-  background: url(grafika/diamondiz-sekce.png) no-repeat;
+  background: url(images/diamondiz-sekce.png) no-repeat;
   height: 157px;
   width: 157px;
   position: absolute;
@@ -393,11 +332,11 @@ a.button03 {
   margin-left: 70px;
 }
 #uvodni-o-mne {
-  background: url(grafika/diamondic-sekce.png) no-repeat;
+  background: url(images/diamondic-sekce.png) no-repeat;
   height: 157px;
   width: 157px;
   position: absolute;
-  margin-top: 25px;
+  margin-top: 10px;
   margin-left: 70px;
 }
 
@@ -406,7 +345,7 @@ a.button03 {
   height: 170px;
   width: 430px;
   position: absolute;
-  background: url(grafika/vyberte.png) no-repeat;
+  background: url(images/vyberte.png) no-repeat;
   margin: 40px 0 0 0;
 }
 
@@ -414,7 +353,7 @@ a.button03 {
   height: 960px;
   width: 536px;
   z-index: 3;
-  background: url(grafika/zdenatvrda.png) no-repeat top right;
+  background: url(images/zdenatvrda.png) no-repeat top right;
   margin: -39px 0 0 404px;
 
 }
@@ -422,7 +361,7 @@ a.button03 {
   height: 99px;
   width: 216px;
   z-index: 7;
-  background: url(grafika/zdenatvrda.png) no-repeat -130px 0px;
+  background: url(images/zdenatvrda.png) no-repeat -130px 0px;
   margin: -39px 0 0 534px;
   position: fixed;
   visibility: hidden;
@@ -433,7 +372,7 @@ background: transparent !important;
 #uvodni-info {
 	width: 464px;
 	float: left;
-  /*background: url(grafika/odznak.png) no-repeat right;*/
+  /*background: url(images/odznak.png) no-repeat right;*/
 /*	background: green;*/
 }
 
@@ -442,7 +381,7 @@ background: transparent !important;
   width: 100px;
   float: right;
   margin: -321px 20px auto auto;
-  background: url(grafika/odznak.png) no-repeat;
+  background: url(images/odznak.png) no-repeat;
 /*	background: green;*/
 }
 
@@ -573,7 +512,7 @@ a.tlacitko:hover {
 
 #obsah p {
   padding: 0px 50px 10px 50px;
-  text-indent: 50px;
+  /*text-indent: 50px;*/
 }
 
 
@@ -751,7 +690,7 @@ a.tlacitko:hover {
   width: 20%;
   height: 100px;
   margin-top: 20px;
-  background: url(grafika/clanek.png) no-repeat;
+  background: url(images/clanek.png) no-repeat;
   background-position: 50% 50%;
   float: left;
 }
@@ -871,7 +810,7 @@ margin: 50px 50px 20px 50px;
 
 #obsah ul {
   padding: 0px 50px 10px 117px;
-  list-style-image: url(grafika/odrazka.png);
+  list-style-image: url(images/odrazka.png);
 }
 
 .zvyraznene {
@@ -913,7 +852,7 @@ a.na-program-2 {
   height: 183px;
   width: 300px;
   z-index: 4;
-  background: url(grafika/diamondis.png) no-repeat center;
+  background: url(images/diamondis.png) no-repeat center;
   margin: -41px auto auto auto;
   position: absolute;
 }
@@ -953,7 +892,7 @@ a.na-program-2 {
   height: 183px;
   width: 300px;
   z-index: 3;
-  background: url(grafika/diamondim.png) no-repeat center;
+  background: url(images/diamondim.png) no-repeat center;
   margin: -41px auto auto auto;
   position: absolute;
 }
@@ -992,7 +931,7 @@ a.na-program-2 {
   height: 183px;
   width: 300px;
   z-index: 4;
-  background: url(grafika/diamondic.png) no-repeat center;
+  background: url(images/diamondic.png) no-repeat center;
   margin: -41px auto auto auto;
   position: absolute;
 }
@@ -1188,23 +1127,23 @@ h3#Grand {
 }
 .galerie-foto {
 	width: 210px;
-	margin: 0 20px 20px 0;
+	margin: 0 5px 20px 0;
 	float: left;
 	min-height: 210px;
-	background: #e4e4e4;
+	/*background: #e4e4e4;*/
 	text-align: center;
 	font-size: 12px;
 	line-height: 18px;
 }
 #gp-2015  {
-  background: url(grafika/grand-prix-2015-plakat.jpg) no-repeat center;
+  background: url(images/grand-prix-2015-plakat.jpg) no-repeat center;
   margin-top: 10px;
   margin-left: 100px;
   height: 354px;
   width: 500px;
 }
 #gp-2016  {
-  background: url(grafika/grand-prix-2016-plakat.jpeg) no-repeat center;
+  background: url(images/grand-prix-2016-plakat.jpeg) no-repeat center;
   margin-top: 10px;
   margin-left: 100px;
   height: 354px;
@@ -1226,7 +1165,7 @@ h3#Grand {
   height: 30px;
   width: 250px;
   background: ;
-  background: url(grafika/pohar.png) no-repeat 20% center #f3f3f3;
+  background: url(images/pohar.png) no-repeat 20% center #f3f3f3;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 21px;
@@ -1248,7 +1187,7 @@ h3#Grand {
 }
 .vysledek:hover {
 	color: white;
-  background: url(grafika/pohar.png) no-repeat 20% center #78d57f;
+  background: url(images/pohar.png) no-repeat 20% center #78d57f;
 	border-bottom: 2px solid #46c54f;
 }
 .sponzori {
@@ -1263,91 +1202,91 @@ h3#Grand {
 	width: 192px;
   height: 180px;
 	float: left;
-	background: url('grafika/01-CPP.png') center center no-repeat;
+	background: url('images/01-CPP.png') center center no-repeat;
 }
 .sponzor-02 {
 	width: 192px;
   height: 180px;
 	float: left;
-	background: url('grafika/02-gallery.png') center center no-repeat;
+	background: url('images/02-gallery.png') center center no-repeat;
 }
 .sponzor-03 {
 	width: 192px;
   height: 180px;
 	float: left;
-	background: url('grafika/03-svaz-kulturistiky.png') center center no-repeat;
+	background: url('images/03-svaz-kulturistiky.png') center center no-repeat;
 }
 .sponzor-04 {
 	width: 192px;
   height: 180px;
 	float: left;
-	background: url('grafika/04-zemako.png') center center no-repeat;
+	background: url('images/04-zemako.png') center center no-repeat;
 }
 .sponzor-05 {
 	width: 192px;
   height: 180px;
 	float: left;
-	background: url('grafika/05-M&F.png') center center no-repeat;
+	background: url('images/05-M&F.png') center center no-repeat;
 }
 .sponzor-06 {
 	width: 192px;
   height: 180px;
 	float: left;
-	background: url('grafika/06-fenix-dance-brno.png') center center no-repeat;
+	background: url('images/06-fenix-dance-brno.png') center center no-repeat;
 }
 .sponzor-07 {
 	width: 192px;
   height: 180px;
 	float: left;
-	background: url('grafika/07-inkospor.png') center center no-repeat;
+	background: url('images/07-inkospor.png') center center no-repeat;
 }
 .sponzor-08 {
 	width: 192px;
   height: 180px;
 	float: left;
-	background: url('grafika/08-7camicie.png') center center no-repeat;
+	background: url('images/08-7camicie.png') center center no-repeat;
 }
 .sponzor-09 {
 	width: 192px;
   height: 180px;
 	float: left;
-	background: url('grafika/09-smakoun.png') center center no-repeat;
+	background: url('images/09-smakoun.png') center center no-repeat;
 }
 .sponzor-10 {
 	width: 192px;
   height: 180px;
 	float: left;
-	background: url('grafika/10-svet-kulturistiky.png') center center no-repeat;
+	background: url('images/10-svet-kulturistiky.png') center center no-repeat;
 }
 .sponzor-11 {
 	width: 192px;
   height: 180px;
 	float: left;
-	background: url('grafika/11-BIGONEFITNESS.png') center center no-repeat;
+	background: url('images/11-BIGONEFITNESS.png') center center no-repeat;
 }
 .sponzor-12 {
 	width: 192px;
   height: 180px;
 	float: left;
-	background: url('grafika/12-compact.png') center center no-repeat;
+	background: url('images/12-compact.png') center center no-repeat;
 }
 .sponzor-13 {
 	width: 190px;
   height: 180px;
 	float: left;
-	background: url('grafika/13-itsmylife.png') center center no-repeat;
+	background: url('images/13-itsmylife.png') center center no-repeat;
 }
 .sponzor-14 {
 	width: 180px;
   height: 180px;
 	float: left;
-	background: url('grafika/14-moss.gif') center center no-repeat;
+	background: url('images/14-moss.gif') center center no-repeat;
 }
 .sponzor-15 {
 	width: 180px;
   height: 180px;
 	float: left;
-	background: url('grafika/15-bioderma.jpg') center center no-repeat;
+	background: url('images/15-bioderma.jpg') center center no-repeat;
 }
 .galerie-foto:nth-of-type(4)  {
 	margin: 0 0 20px 0;
@@ -1415,7 +1354,7 @@ a.blue {
 	width: 239px;
 	border-right: 1px solid #f3f3f3;
 	float: left;
-	background: url('grafika/diamondis.png') top center no-repeat;
+	background: url('images/diamondis.png') top center no-repeat;
 	padding: 145px 0 20px 0;
 	background-size: 60%;
 }
@@ -1423,7 +1362,7 @@ a.blue {
 	width: 239px;
 	border-right: 1px solid #f3f3f3;
 	float: left;
-	background: url('grafika/diamondim.png') top center no-repeat;
+	background: url('images/diamondim.png') top center no-repeat;
 	padding: 145px 0 20px 0;
 	background-size: 60%;
 }
@@ -1431,7 +1370,7 @@ a.blue {
 	width: 239px;
 	border-right: 1px solid #f3f3f3;
 	float: left;
-	background: url('grafika/diamondic.png') top center no-repeat;
+	background: url('images/diamondic.png') top center no-repeat;
 	padding: 145px 0 20px 0;
 	background-size: 60%;
 }
@@ -1439,7 +1378,7 @@ a.blue {
 	width: 239px;
 	border-right: 1px solid #f3f3f3;
 	float: left;
-	background: url('grafika/diamondiz.png') top center no-repeat;
+	background: url('images/diamondiz.png') top center no-repeat;
 	padding: 145px 0 20px 0;
 	background-size: 60%;
 }
@@ -1520,13 +1459,13 @@ a.tlacitko-modre:hover {
 
 }
 #uvodni-pozadi {
-	  background: url(grafika/layoutpozadi.jpg) repeat-x fixed;
+	  background: url(images/layoutpozadi.jpg) repeat-x fixed;
 
 	margin: 25px 0 0 0;
 
 }
 #facebook-male {
-    background: url('grafika/facebook.png') center no-repeat;;
+    background: url('images/facebook.png') center no-repeat;;
     display:block;
     height:32px;
     overflow:hidden;
@@ -1537,7 +1476,7 @@ a.tlacitko-modre:hover {
 		padding-bottom: 10px;
 }
 #facebook-velke {
-    background: url('grafika/facebook-velke.png') center no-repeat;;
+    background: url('images/facebook-velke.png') center no-repeat;;
     display:block;
     height:64px;
     overflow:hidden;

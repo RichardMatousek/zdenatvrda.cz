@@ -19,6 +19,18 @@
         RSS Feed" href="<?php bloginfo( 'rss2_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
  
+<meta charset="UTF-8">
+<meta name="description" content="Jmenuji se Mgr. Zdenka Tvrdá, vedu profesionální fitness kurzy pro ženy a pracuji jako osobní trenérka v Big One Fitness v Brně.">
+<meta name="keywords" content="Zdenka Tvrdá, Zdena Tvrdá, Zdena Gottwaldová, Big One Fitness, Big One Brno, fitness">
+
+<link rel="stylesheet" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+<script src="http://code.jquery.com/jquery.min.js"></script>
+
+<script src="fancybox/jquery.fancybox.js"></script>
+<script src="fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+<link rel="stylesheet" href="fancybox/jquery.fancybox.css">
  
 <?php wp_head(); ?>  
  
@@ -32,19 +44,11 @@
 <!-- BEGIN body -->
 <body <?php body_class(); ?>>
  
-<div class="row-fluid">
-    <div class="header-menu">
-          <?php if ( has_nav_menu( 'primary-menu' ) ) { ?>
-            <?php wp_nav_menu( array( 'theme_location' => 'primary-menu') ); ?>
-          <?php } else { ?>
-                  <ul class="sf-menu">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/?page_id=2">Sample Page</a></li>
-                    <li><a href="/?p=1">Sample post</a></li>
-                  </ul>
-          <?php } ?>
+<div id="menu">
+    <div id="menuobsah">
+      <div id="druhe-menu">
+    <?php wp_nav_menu( array( 'theme_location' => 'primary-menu') ); ?>
+
+      </div>
     </div>
-  <div class="container">
-   <div class="content-wrap">
-    
-    <div class="row-fluid">
+</div>

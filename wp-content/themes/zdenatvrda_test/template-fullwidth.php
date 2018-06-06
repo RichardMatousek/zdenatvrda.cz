@@ -1,8 +1,19 @@
 <!-- /* Template name: Full width */ -->
 <?php get_header(); ?>
-<div class="row-fluid">
-    <div style="height: 80px;"></div>
-  <div class="col-xs-12 col-sm-6 col-md-12">
+<div id="layoutpozadi-sekce">
+  <div id="container-sekce">
+  <div id="uvodni-o-mne"></div>
+  <div id="uvodni-info-sekce">
+      <h1>O mně</h1>
+      </div>
+  </div>
+</div>
+
+<div></div>
+
+<div id="obal">
+<div id="obsah">
+       
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
   <!--BEGIN .hentry -->
   <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
@@ -21,7 +32,32 @@
 </div>
  </div>
    <?php endif; ?>
-</div>
   
+</div>
+ 
+<div id="ctyrprogram">
+	<div id="program1">
+		<h3>Pro začátečnice</h3>
+		<a class="na-program" href="pro-zacatecnice.php" title="Osobní tréninky pro začátečnice">Více o programu</a>
+	</div>
+ 
+	<div id="program2">
+		<h3>Pro pokročilé</h3>
+		<a class="na-program" href="pro-pokrocile.php" title="Osobní tréninky pro pokročilé">Více o programu</a>
+	</div>
+ 
+	<div id="program3">
+		<h3>Pro pro zkušené</h3>
+		 <a class="na-program" href="pro-pokrocile.php" title="Osobní tréninky pro pokročilé">Více o programu</a>
+	</div>
+ 
+	<div id="program4">
+		<h3>Vlastní cesta</h3>
+		 <a class="na-program" href="vlastni-cesta.php" title="Individuální osobní tréniky">Více o programu</a>
+	</div>
+	<div class="cistic"></div>
+</div>
+ 
+<div id="delicicara">
 </div>
 <?php get_footer(); ?>
