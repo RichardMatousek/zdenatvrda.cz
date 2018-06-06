@@ -1,0 +1,1550 @@
+/*-----------------------------------------------------------------------------------
+ 
+  Theme Name: zdenatvrda
+  Theme URI: 
+  Description: 2 column theme 
+  Author: Author
+  Author URI: 
+  License: GNU General Public License version 3.0
+  License URI: http://www.gnu.org/licenses/gpl-3.0.html
+  Version: 1
+ 
+ Designed & Handcrafted by 
+ All files, unless otherwise stated, are released under the GNU General Public License
+ version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+ 
+-----------------------------------------------------------------------------------*/
+body{
+  background: url(images/layoutpozadi2.jpg) repeat fixed;
+  color: white;
+}
+ 
+.content-wrap{
+  background: url(images/layoutpozadi.jpg) repeat fixed;
+  padding-top: 30px;
+}
+ 
+img{
+  max-width:100%;
+}
+ 
+/*----------------------------------------------------------------------*/
+/* Main navigation menu */
+/*----------------------------------------------------------------------*/
+.header-menu {
+    float:left;
+    height: 102px;
+    width: 100%;
+    background-color: #171717;
+    position: fixed;
+    text-decoration: none;
+    z-index: 4;
+}
+.header-menu ul {width: 960px;
+    height: 57.778px;
+    margin: 40px auto 0 auto;
+    list-style: none;
+    padding-left: 0px;
+}
+ 
+.header-menu ul li {float:left;
+  margin:0;
+  padding:0; 
+  position:relative;
+}
+.header-menu ul li a{
+  border-right:solid 2px #171717;                    
+}
+.header-menu ul li a, 
+.header-menu ul li.pagenav {  
+padding: 0px 20px 0px 20px;
+  color: #ffffff;
+  float: left;
+  font-size: 14px; 
+  line-height:58px;
+  font-weight:normal;
+  text-transform:uppercase;
+}
+.header-menu ul li:last-child a{border-right:none;}
+.header-menu ul li.current-menu-item a,
+.header-menu ul li a:hover, 
+.header-menu ul li a.active, 
+.header-menu ul li.pagenav:hover {
+  background-color:#171717;
+  text-decoration:none;
+}
+ 
+.header-menu ul li ul{
+  display:none;
+}
+
+/* Styly ze zdenatvrda.cz */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	color: white;
+}
+/* Základní styly */
+.cistic {
+	clear:both;
+	height:1px;
+	margin: -1px 0 0 0;
+	padding:0;
+	border:none;
+	visibility: hidden;
+}
+.skryty {
+	display: none;
+	width: 0;
+	height: 0;
+}
+html {
+	background: #f3f3f3;;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+/* hlavní navi */
+nav ul li a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+	display: block;
+	float: left;
+	text-decoration: none;
+	padding: 6px 10px 6px 36px;
+  background: url(grafika/navisedivy.png) no-repeat left 5px  center;
+    -webkit-transition: all  0.5s; /* For Safari 3.1 to 6.0 */
+    transition: all 0.5s;
+}
+nav ul li a:hover {
+	color: #e2c55d;
+}
+
+nav ul li a#druhy {
+	border-left: 1px solid grey;
+  background: url(grafika/navimodry.png) no-repeat left 5px  center;
+}
+
+nav ul li a#treti {
+	border-left: 1px solid grey;
+  background: url(grafika/navicerveny.png) no-repeat left 5px center;
+}
+
+nav ul {
+	border: 1px solid grey;
+	width: 415px;
+  margin:  -27px 0 0 90px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px
+}
+
+#druhe-menu ul {
+  margin: -27px auto auto auto;
+
+}
+
+#druhe-menu ul li a{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+	display: block;
+	float: right;
+	text-decoration: none;
+	padding: 0px 0px 0px 20px;
+    -webkit-transition: all  0.5s; /* For Safari 3.1 to 6.0 */
+    transition: all 0.5s;
+}
+#druhe-menu ul li a:hover {
+	color: #e2c55d;
+}
+
+
+
+
+
+
+
+/* CSS na míru*/
+body {
+background-color: #f3f3f3;
+color: black;
+}
+
+#menu {
+	height: 102px;
+	width: 100%;
+	background-color: #171717;
+  position: fixed;
+  text-decoration: none;
+  z-index: 4;
+}
+
+#menuobsah {
+  width: 960px;
+  height: 40px;
+  margin: 40px auto 0 auto;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+
+a.button01 {
+  display: block;
+  float: left;
+  height:   ;
+  width: ;
+  background: url(grafika/navisedivy.png) no-repeat left center;
+  -webkit-transition: all  0.5s; /* For Safari 3.1 to 6.0 */
+}
+
+a.button02 {
+  display: block;
+  float: left;
+  height:   ;
+  width: ;
+  background: url(grafika/navimodry.png) no-repeat left center;
+}
+
+a.button03 {
+  display: block;
+  float: left;
+  height:   ;
+  width: ;
+  background: url(grafika/navicerveny.png) no-repeat left center;
+}
+
+#layoutpozadi {
+  height: 861px;
+  background: url(grafika/layoutpozadi2.jpg) repeat-x fixed;
+  padding: 102px 0 0 0;
+
+}
+
+#layoutpozadi-sekce {
+  height: 205px;
+  background: url(grafika/layoutpozadi-sekce.jpg) repeat-x fixed;
+  padding: 102px 0 0 0;
+}
+
+#container {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+#container h1{
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 55.9px;
+  padding-top: 30px;
+  text-align: right;
+
+
+}
+#container-sekce h1.fotoh {
+	padding: 30px 0;
+	font-size: 32px;
+	}
+
+#container h2{
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21.64px;
+  font-weight: 300;
+  text-align: right;
+  line-height: 27.5px;
+  padding-top: 30px;
+
+
+}
+
+#container p {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: right;
+  line-height: 32px;
+  padding-top: 30px;
+  padding-right: 30%;
+}
+
+#container-sekce {
+  width: 940px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+#container-sekce h1{
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 43.27px;
+  font-weight: 300;
+  line-height: 55.9px;
+  padding-top: 30px;
+  text-align: left;
+}
+#GP-nadpis {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+#GP-nadpis h1 {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40.27px;
+  font-weight: 300;
+  line-height: 55.9px;
+  padding-top: 30px;
+  text-align: left;
+}
+
+#container-sekce h2{
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21.64px;
+  font-weight: 300;
+  text-align: left;
+  line-height: 27.5px;
+  padding-top: 30px;
+
+
+}
+
+#container-sekce p {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  line-height: 32px;
+  padding-top: 30px;
+  padding-right: 30%;
+}
+
+#uvodni-info-sekce {
+	width: 800px;
+  height: 205px;
+	float: left;
+  position: absolute;
+  padding-top: 40px;
+  padding-left: 250px;
+
+}
+
+#uvodni-diamond-sedy {
+  background: url(grafika/diamondis-sekce.png) no-repeat;
+  height: 157px;
+  width: 157px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 70px;
+}
+
+#uvodni-diamond-modry {
+  background: url(grafika/diamondim-sekce.png) no-repeat;
+  height: 157px;
+  width: 157px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 70px;
+}
+
+#uvodni-diamond-cerveny {
+  background: url(grafika/diamondic-sekce.png) no-repeat;
+  height: 157px;
+  width: 157px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 70px;
+}
+#uvodni-diamond-zeleny {
+  background: url(grafika/diamondiz-sekce.png) no-repeat;
+  height: 157px;
+  width: 157px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 70px;
+}
+#uvodni-o-mne {
+  background: url(grafika/diamondic-sekce.png) no-repeat;
+  height: 157px;
+  width: 157px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 70px;
+}
+
+
+#vyberte {
+  height: 170px;
+  width: 430px;
+  position: absolute;
+  background: url(grafika/vyberte.png) no-repeat;
+  margin: 40px 0 0 0;
+}
+
+#zdenatvrda {
+  height: 960px;
+  width: 536px;
+  z-index: 3;
+  background: url(grafika/zdenatvrda.png) no-repeat top right;
+  margin: -39px 0 0 404px;
+
+}
+#zdenatvrda2 {
+  height: 99px;
+  width: 216px;
+  z-index: 7;
+  background: url(grafika/zdenatvrda.png) no-repeat -130px 0px;
+  margin: -39px 0 0 534px;
+  position: fixed;
+  visibility: hidden;
+}
+.scrolled {
+background: transparent !important;
+}
+#uvodni-info {
+	width: 464px;
+	float: left;
+  /*background: url(grafika/odznak.png) no-repeat right;*/
+/*	background: green;*/
+}
+
+#uvodni-info-odznak {
+  height: 100px;
+  width: 100px;
+  float: right;
+  margin: -321px 20px auto auto;
+  background: url(grafika/odznak.png) no-repeat;
+/*	background: green;*/
+}
+
+/*.tlacitko {
+  height: 60px;
+  width: 182px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  border: 0px solid #ffffff;
+  border-bottom: 2px solid #999999;
+  border-radius: 7px;
+  margin: 10px 0 25px 0;
+}*/
+
+a.tlacitko {
+  height: 60px;
+  width: 182px;
+  background: #f3f3f3;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #171717;
+  border: 0px solid #f3f3f3;
+  border-bottom: 2px solid #999999;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 10px auto auto auto;
+	display: block;
+	text-decoration: none;
+  text-align: center;
+  line-height: 60px;
+   -webkit-transition: all  0.5s; /* For Safari 3.1 to 6.0 */
+    transition: all 0.5s;
+}
+a.tlacitko:hover {
+	color: white;
+	background: #eec755;
+	border-bottom: 2px solid #d7a921;
+
+}
+
+
+#obal {
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	background: #f3f3f3;
+}
+
+#programy {
+  width: 940px;
+  height: 402px;
+  margin: 0 auto 0 auto;
+}
+
+#obsah {
+  width: 940px;
+  margin: 0 auto 0 auto;
+  background: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #000000;
+  padding: 15px;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#obsah-akce {
+  width: 940px;
+  margin: 0 auto 0 auto;
+  background: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #000000;
+  padding: 15px;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#obsah-clanky {
+  width: 940px;
+  margin: 0 auto 0 auto;
+  background: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #000000;
+  padding: 15px;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#obsah-clanek {
+  width: 940px;
+  margin: 0 auto 0 auto;
+  background: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #000000;
+  padding: 15px;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#obsah-clanek img {
+  float: right;
+}
+
+#obsah-clanek a {
+  color: #209ee6;
+}
+
+#obsah p {
+  padding: 0px 50px 10px 50px;
+  text-indent: 50px;
+}
+
+
+#obsah-akce p {
+  padding: 0px 50px 10px 50px;
+  text-indent: 0px;
+}
+
+#obsah-clanky p {
+  padding: 0px 50px 10px 50px;
+  text-indent: 0px;
+}
+
+#obsah-clanek p {
+  padding: 0px 50px 10px 50px;
+  text-indent: 20px;
+}
+
+#obsah p#kontakt {
+  padding: 0px 50px 10px 50px;
+  text-indent: 0px;
+  font-size: 16px;
+}
+
+#obsah h2#sekce{
+  color: #862c5a;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21.64px;
+  font-weight: 300;
+  text-align: left;
+  line-height: 27.5px;
+  padding: 15px 50px 0px 50px;
+  text-indent: 50px;
+}
+
+#obsah-clanek p#podpis{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align: right;
+  float: right;
+  padding: 15px 50px 0px 50px;
+  text-indent: 50px;
+}
+
+#obsah-akce h2{
+  color: #862c5a;
+  font-family: 'Open Sans', sans-serif;
+  padding: 25px 50px 5px 50px;
+  font-weight: 700;
+  font-size: 21.64px;
+  text-indent: 50px;
+}
+
+#obsah-clanky h2{
+  color: #862c5a;
+  font-family: 'Open Sans', sans-serif;
+  padding: 5px 50px 5px 50px;
+  font-weight: 700;
+  font-size: 18px;
+  text-indent: 0px;
+}
+
+#obsah-clanek h2{
+  color: #862c5a;
+  font-family: 'Open Sans', sans-serif;
+  padding: 15px 50px 10px 50px;
+  font-weight: 700;
+  font-size: 20px;
+  text-indent: 0px;
+}
+
+#obsah-clanky .datum{
+  color: #999999;
+  font-family: 'Open Sans', sans-serif;
+  padding: 25px 50px 0px 50px;
+  font-weight: 700;
+  font-size: 12px;
+  text-indent: 0px;
+}
+
+#obsah-akce .bod-akce{
+  color: #862c5a;
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 50px;
+  font-size: 18px;
+}
+
+#obsah-clanek .bod-clanek{
+  color: #862c5a;
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 50px;
+  font-size: 18px;
+}
+
+#obsah-akce .akce{
+  width: 940px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+#obsah-clanek{
+  width: 940px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+#obsah-akce .akce td.bod{
+  width:220px;
+  text-indent: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+#obsah-akce .akce td.bod h3{
+  color: #862c5a;
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 0px;
+  font-weight: 700;
+  font-size: 14px;
+  text-indent: 0px;
+}
+#obsah-akce .akce td{
+  padding: 0px;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+#obsah-akce .akce td p{
+  padding: 0px;
+  text-indent: 0px;
+}
+#obsah-akce .akce td p a{
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin: 0px;
+  color: #209ee6;
+}
+#obsah-akce .akce td p a.registrace {
+  height: 30px;
+  width: 250px;
+  background: #f3f3f3;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #171717;
+  border: 0px solid #f3f3f3;
+  border-bottom: 2px solid #999999;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0px;
+	margin-right: 200px;
+  padding: 0px;
+	display: block;
+	text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+   -webkit-transition: all  0.5s; /* For Safari 3.1 to 6.0 */
+    transition: all 0.5s;
+}
+
+#obsah-clanky .bod-clanky{
+  color: #862c5a;
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 50px;
+  font-size: 18px;
+}
+
+.clanek {
+  width: 100%;
+  height: 100px;
+}
+
+.clanek-obrazek {
+  width: 20%;
+  height: 100px;
+  margin-top: 20px;
+  background: url(grafika/clanek.png) no-repeat;
+  background-position: 50% 50%;
+  float: left;
+}
+.clanek-text {
+  width: 80%;
+  height: 200px;
+}
+.clanek a{
+  color: #209ee6;
+}
+
+
+#obsah-clanky .clanky{
+  width: 940px;
+  margin: 0 auto;
+  padding: 0px;
+}
+#obsah-clanky .clanky td.bod{
+  width:220px;
+  text-indent: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+#obsah-clanky .clanky td.bod h3{
+  color: #862c5a;
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 0px;
+  font-weight: 700;
+  font-size: 14px;
+  text-indent: 0px;
+}
+#obsah-clanky .clanky td{
+  padding: 0px;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+#obsah-clanky .clanky td p{
+  padding: 0px;
+  text-indent: 0px;
+}
+#obsah-clanky .clanky td p a{
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin: 0px;
+  color: #209ee6;
+}
+
+a.registrace {
+  height: 30px;
+  width: 250px;
+  background: #f3f3f3;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  float: right;
+  color: #171717;
+  border: 0px solid #f3f3f3;
+  border-bottom: 2px solid #999999;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0px 60px;
+  padding: 0px;
+	display: block;
+	text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+   -webkit-transition: all  0.5s; /* For Safari 3.1 to 6.0 */
+    transition: all 0.5s;
+}
+
+ a.registrace:hover {
+	color: white;
+	background: #eec755;
+	border-bottom: 2px solid #d7a921;
+
+}
+
+hr {
+margin: 50px 50px 20px 50px;
+}
+
+#obsah-akce .akce td p a.registrace:hover {
+	color: white;
+	background: #eec755;
+	border-bottom: 2px solid #d7a921;
+
+}
+
+
+#obsah-akce h3{
+  color: #862c5a;
+  font-family: 'Open Sans', sans-serif;
+  padding: 15px 50px 0px 50px;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  text-indent: 50px;
+}
+
+#obsah h3{
+  color: #862c5a;
+  padding: 15px 50px 10px 50px;
+  font-weight: 700;
+  font-size: 18px;
+  text-indent: 50px;
+}
+
+#obsah h4{
+  color: #862c5a;
+  text-indent: 50px;
+  padding: 0px 50px 10px 50px;
+}
+
+
+#obsah ul {
+  padding: 0px 50px 10px 117px;
+  list-style-image: url(grafika/odrazka.png);
+}
+
+.zvyraznene {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #8e3a65;
+}
+#programy a.tlacitko {
+	margin-bottom: 10px;
+}
+a.na-program {
+	color: #518fdf;
+	font-size: 14px;
+}
+a.na-program-2 {
+	color: #518fdf;
+	font-size: 14px;
+	margin: 0 100px 0 100px;
+}
+
+#levy {
+  width: 300px;
+  height: 422px;
+  font-family: 'Open Sans', sans-serif;
+  background: #ffffff;
+  color: #000000;
+  float: left;
+  margin: 0 20px 0 0;
+  text-align: center;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#levy-diamond {
+  height: 183px;
+  width: 300px;
+  z-index: 4;
+  background: url(grafika/diamondis.png) no-repeat center;
+  margin: -41px auto auto auto;
+  position: absolute;
+}
+
+#levy h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  color: #8e3a65;
+  padding: 150px 0 0 0;
+}
+
+#levy p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #000000;
+  padding: 15px;
+}
+
+#prostredni {
+  width: 300px;
+  height: 422px;
+  font-family: 'Open Sans', sans-serif;
+  background: #ffffff;
+  color: #000000;
+  float: left;
+  margin: 0 20px 0 0;
+  text-align: center;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#prostredni-diamond {
+  height: 183px;
+  width: 300px;
+  z-index: 3;
+  background: url(grafika/diamondim.png) no-repeat center;
+  margin: -41px auto auto auto;
+  position: absolute;
+}
+
+#prostredni h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  padding: 150px 0 0 0;
+  color: #8e3a65;
+}
+
+#prostredni p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #000000;
+  padding: 15px;
+}
+
+#pravy {
+  width: 300px;
+  height: 422px;
+  font-family: 'Open Sans', sans-serif;
+  background: #ffffff;
+  color: #000000;
+  float: left;
+  text-align: center;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#pravy-diamond {
+  height: 183px;
+  width: 300px;
+  z-index: 4;
+  background: url(grafika/diamondic.png) no-repeat center;
+  margin: -41px auto auto auto;
+  position: absolute;
+}
+
+#pravy h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  color: #8e3a65;
+  padding: 150px 0 0 0;
+}
+
+#pravy p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #000000;
+  padding:  15px;
+}
+
+#vlastni {
+  width: 960px;
+  margin: 60px auto auto auto;
+  padding: 30px 0;
+  text-align: center;
+  background: white;
+
+}
+
+#vlastni h3, #banner h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  color: #8e3a65;
+
+}
+
+#vlastni p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #000000;
+  padding: 15px;
+}
+
+#vlastni a.link {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #0090e3;
+}
+
+#delicicara {
+  height: 1px;
+  width: 940px;
+  background: #d9d9d9;
+  margin: 60px auto auto auto;
+}
+
+#paticka {
+  width: 940px;
+  margin: 30px auto 30px auto;
+}
+
+#paticka p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #c1c1c1;
+  padding: 10px;
+  text-align: center;
+}
+
+#paticka a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+  color: #c1c1c1;
+  padding: 10px;
+
+}
+#formuvnitr {
+	padding: 30px 70px;
+	font-size: 16px;
+}
+strong {
+	font-weight: 700;
+}
+#formuvnitr h2 {
+	font-size: 36px;
+	color: #8e3a65;
+	font-weight: 300;
+	margin: 0 0 30px 0;
+
+}
+#formuvnitr p {
+	margin: 0 0 10px 0;
+	font-size: 16px;
+}
+p.vetsi {
+	font-size: 22px;
+	color: #8e3a65;
+}
+.popis {
+	width: 200px;
+	float: left;
+}
+.hodnota {
+	width: 400px;
+	float: left;
+}
+.form-group {
+	clear: both;
+	height: 50px;
+}
+.form-group1 {
+	clear: both;
+	height: 35px;
+}
+#forma {
+	border-top: 1px solid #d6d6d6;
+	padding: 15px 0 0 0;
+	margin: 5px 0 0 0;
+}
+#forma input {
+	background: white;
+	width: 300px;
+	padding: 10px;
+	font-size: 16px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #d6d6d6;
+}
+#forma textarea {
+	background: white;
+	width: 300px;
+	height: 100px;
+	padding: 10px;
+	font-size: 16px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #d6d6d6;
+}
+#forma sup {
+	color: red;
+}
+#forma button {
+  height: 60px;
+  width: 182px;
+  background: #f3f3f3;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 10px 0 0 200px;
+	text-decoration: none;
+  text-align: center;
+  line-height: 54px;
+   -webkit-transition: all  0.5s; /* For Safari 3.1 to 6.0 */
+    transition: all 0.5s;
+    color: white;
+	background: #eec755;
+	border: none;
+	border-bottom: 2px solid #d7a921;
+	cursor: pointer;
+}
+#forma button:hover {
+	background: #e7af0b;
+	}
+.mobilni-verze {
+	display: none;
+	visibility: hidden;
+}
+#banner {
+	margin: 50px auto 0 auto;
+	width: 940px;
+	padding: 30px 0 0 0;
+	text-align: center;
+}
+#banner img {
+	margin: 30px 0 0 0;
+}
+#hlaseni {
+	font-size: 22px;
+	color: #8e3a65;
+	line-height: 32px;
+	padding-top: 100px;
+}
+
+h3#Grand {
+	padding-bottom: 20px;
+}
+#fotogal {
+	padding: 20px 20px;
+}
+.galerie-foto {
+	width: 210px;
+	margin: 0 20px 20px 0;
+	float: left;
+	min-height: 210px;
+	background: #e4e4e4;
+	text-align: center;
+	font-size: 12px;
+	line-height: 18px;
+}
+#gp-2015  {
+  background: url(grafika/grand-prix-2015-plakat.jpg) no-repeat center;
+  margin-top: 10px;
+  margin-left: 100px;
+  height: 354px;
+  width: 500px;
+}
+#gp-2016  {
+  background: url(grafika/grand-prix-2016-plakat.jpeg) no-repeat center;
+  margin-top: 10px;
+  margin-left: 100px;
+  height: 354px;
+  width: 472px;
+}
+
+#kurz {
+  margin-top: 10px;
+  margin-left: 100px;
+	display: block;
+	text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+   -webkit-transition: all  0.5s; /* For Safari 3.1 to 6.0 */
+    transition: all 0.5s;
+}
+
+.vysledek{
+  height: 30px;
+  width: 250px;
+  background: ;
+  background: url(grafika/pohar.png) no-repeat 20% center #f3f3f3;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  color: #171717;
+  border: 0px solid #f3f3f3;
+  border-bottom: 2px solid #999999;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 100px;
+  padding: 6px;
+	display: block;
+	text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+   -webkit-transition: all  0.5s; /* For Safari 3.1 to 6.0 */
+    transition: all 0.5s;
+}
+.vysledek:hover {
+	color: white;
+  background: url(grafika/pohar.png) no-repeat 20% center #78d57f;
+	border-bottom: 2px solid #46c54f;
+}
+.sponzori {
+  width: 770px;
+  height: 577px;
+  margin: 0 auto;
+  text-align: center;
+  background: white;
+  text-align: center;
+}
+.sponzor-01 {
+	width: 192px;
+  height: 180px;
+	float: left;
+	background: url('grafika/01-CPP.png') center center no-repeat;
+}
+.sponzor-02 {
+	width: 192px;
+  height: 180px;
+	float: left;
+	background: url('grafika/02-gallery.png') center center no-repeat;
+}
+.sponzor-03 {
+	width: 192px;
+  height: 180px;
+	float: left;
+	background: url('grafika/03-svaz-kulturistiky.png') center center no-repeat;
+}
+.sponzor-04 {
+	width: 192px;
+  height: 180px;
+	float: left;
+	background: url('grafika/04-zemako.png') center center no-repeat;
+}
+.sponzor-05 {
+	width: 192px;
+  height: 180px;
+	float: left;
+	background: url('grafika/05-M&F.png') center center no-repeat;
+}
+.sponzor-06 {
+	width: 192px;
+  height: 180px;
+	float: left;
+	background: url('grafika/06-fenix-dance-brno.png') center center no-repeat;
+}
+.sponzor-07 {
+	width: 192px;
+  height: 180px;
+	float: left;
+	background: url('grafika/07-inkospor.png') center center no-repeat;
+}
+.sponzor-08 {
+	width: 192px;
+  height: 180px;
+	float: left;
+	background: url('grafika/08-7camicie.png') center center no-repeat;
+}
+.sponzor-09 {
+	width: 192px;
+  height: 180px;
+	float: left;
+	background: url('grafika/09-smakoun.png') center center no-repeat;
+}
+.sponzor-10 {
+	width: 192px;
+  height: 180px;
+	float: left;
+	background: url('grafika/10-svet-kulturistiky.png') center center no-repeat;
+}
+.sponzor-11 {
+	width: 192px;
+  height: 180px;
+	float: left;
+	background: url('grafika/11-BIGONEFITNESS.png') center center no-repeat;
+}
+.sponzor-12 {
+	width: 192px;
+  height: 180px;
+	float: left;
+	background: url('grafika/12-compact.png') center center no-repeat;
+}
+.sponzor-13 {
+	width: 190px;
+  height: 180px;
+	float: left;
+	background: url('grafika/13-itsmylife.png') center center no-repeat;
+}
+.sponzor-14 {
+	width: 180px;
+  height: 180px;
+	float: left;
+	background: url('grafika/14-moss.gif') center center no-repeat;
+}
+.sponzor-15 {
+	width: 180px;
+  height: 180px;
+	float: left;
+	background: url('grafika/15-bioderma.jpg') center center no-repeat;
+}
+.galerie-foto:nth-of-type(4)  {
+	margin: 0 0 20px 0;
+}
+.galerie-foto:nth-of-type(8)  {
+	margin: 0 0 20px 0;
+}
+.galerie-foto:nth-of-type(12)  {
+	margin: 0 0 20px 0;
+}
+.galerie-foto:nth-of-type(16)  {
+	margin: 0 0 20px 0;
+}
+.galerie-foto:nth-of-type(20)  {
+	margin: 0 0 20px 0;
+}
+.galerie-foto:nth-of-type(24)  {
+	margin: 0 0 20px 0;
+}
+.galerie-foto:nth-of-type(28)  {
+	margin: 0 0 20px 0;
+}
+.galerie-foto:nth-of-type(32)  {
+	margin: 0 0 20px 0;
+}
+.galerie-foto:nth-of-type(36)  {
+	margin: 0 0 20px 0;
+}
+.galerie-foto:nth-of-type(40)  {
+	margin: 0 0 20px 0;
+}
+.galerie-foto:nth-of-type(44)  {
+	margin: 0 0 20px 0;
+}
+.galerie-foto:nth-of-type(48)  {
+	margin: 0 0 20px 0;
+}
+.galerie-foto:nth-of-type(52)  {
+	margin: 0 0 20px 0;
+}
+.galerie-foto:nth-of-type(56)  {
+	margin: 0 0 20px 0;
+}
+.galerie-foto:nth-of-type(60)  {
+	margin: 0 0 20px 0;
+}
+.galerie-foto:nth-of-type(64)  {
+	margin: 0 0 20px 0;
+}
+.popisek {
+	padding: 5px 7px;
+}
+.popisek a {
+	color: #209ee6;
+	font-weight: 700;
+}
+a.blue {
+	color: #209ee6;
+}
+.vpravo {
+	float: right;
+	padding: 40px;
+}
+#program1 {
+	width: 239px;
+	border-right: 1px solid #f3f3f3;
+	float: left;
+	background: url('grafika/diamondis.png') top center no-repeat;
+	padding: 145px 0 20px 0;
+	background-size: 60%;
+}
+#program2 {
+	width: 239px;
+	border-right: 1px solid #f3f3f3;
+	float: left;
+	background: url('grafika/diamondim.png') top center no-repeat;
+	padding: 145px 0 20px 0;
+	background-size: 60%;
+}
+#program3 {
+	width: 239px;
+	border-right: 1px solid #f3f3f3;
+	float: left;
+	background: url('grafika/diamondic.png') top center no-repeat;
+	padding: 145px 0 20px 0;
+	background-size: 60%;
+}
+#program4 {
+	width: 239px;
+	border-right: 1px solid #f3f3f3;
+	float: left;
+	background: url('grafika/diamondiz.png') top center no-repeat;
+	padding: 145px 0 20px 0;
+	background-size: 60%;
+}
+#ctyrprogram {
+  width: 960px;
+  margin: 60px auto auto auto;
+  text-align: center;
+  background: white;
+  text-align: center;
+  }
+#ctyrprogram h3 {
+	font-weight: 700;
+	color: #862c5a;
+	font-size: 18px;
+}
+.jdudotoho {
+	background: #7f255c;
+	padding: 20px 0;
+	  -webkit-border-radius: 5px;
+	  -moz-border-radius: 5px;
+	  border-radius: 5px;
+	  margin: 20px 0;
+}
+
+a.tlacitko-fialove {
+  height: 60px;
+  width: 232px;
+  background: #7f255c;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  border: 0px solid #c589ae;
+  border-bottom: 2px solid #56183e;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 10px auto auto auto;
+	display: block;
+	text-decoration: none;
+  text-align: center;
+  line-height: 60px;
+   -webkit-transition: all  0.5s; /* For Safari 3.1 to 6.0 */
+    transition: all 0.5s;
+}
+a.tlacitko-fialove:hover {
+	color: white;
+	background: #eec755;
+	border-bottom: 2px solid #d7a921;
+
+}
+a.tlacitko-modre {
+  height: 60px;
+  width: 232px;
+  background: #3b5998;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  border: 0px solid #3b5998;
+  border-bottom: 2px solid #2a447a;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 10px auto auto auto;
+	display: block;
+	text-decoration: none;
+  text-align: center;
+  line-height: 60px;
+   -webkit-transition: all  0.5s; /* For Safari 3.1 to 6.0 */
+    transition: all 0.5s;
+}
+a.tlacitko-modre:hover {
+	color: #3b5998;
+	background: #f3f3f3;
+	    border: 0px solid #f3f3f3;
+	    border-bottom: 2px solid #999999;
+
+}
+#uvodni-pozadi {
+	  background: url(grafika/layoutpozadi.jpg) repeat-x fixed;
+
+	margin: 25px 0 0 0;
+
+}
+#facebook-male {
+    background: url('grafika/facebook.png') center no-repeat;;
+    display:block;
+    height:32px;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    width:32px;
+		margin: 0 auto;
+		padding-bottom: 10px;
+}
+#facebook-velke {
+    background: url('grafika/facebook-velke.png') center no-repeat;;
+    display:block;
+    height:64px;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    width:64px;
+		margin: 0 auto;
+		padding-bottom: 10px;
+		padding-top: 20px;
+}
