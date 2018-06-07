@@ -4,7 +4,7 @@
   <div id="container-sekce">
   <div id="uvodni-o-mne"></div>
   <div id="uvodni-info-sekce">
-      <h1>O mně</h1>
+      <h1>Zdena Tvrdá</h1>
  
  
       </div>

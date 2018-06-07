@@ -17,7 +17,7 @@
 
 
 /* Styly ze zdenatvrda.cz */
-/* <img src="http://localhost/wp-content/themes/zdenatvrda_test/images/nahledy/zdena-tvrda-02.jpg" alt="" class="alignnone size-full wp-image-1743" alt="Zdena Tvrdá"> */
+/* <img src="http://localhost/wp-content/themes/zdenatvrda_test/images/nahledy/zdena-tvrda-02.jpg" alt="" class="alignnone size-full wp-image-1743"> */
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -246,7 +246,8 @@ a.button03 {
   font-size: 43.27px;
   font-weight: 300;
   line-height: 55.9px;
-  padding-top: 30px;
+  padding-top: 0px;
+  padding-bottom: 30px;
   text-align: left;
 }
 #GP-nadpis {

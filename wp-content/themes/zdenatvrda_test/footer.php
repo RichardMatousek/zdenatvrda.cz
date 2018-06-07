@@ -1,7 +1,9 @@
 <?php wp_footer(); ?>
  
 <div id="paticka">
-	<p><a href="index.php" title="Úvod">Úvod</a> <a href="o-mne.php" title="O mně">O mně</a><a href="fotogalerie.php" title=“Fotogalerie”>Fotogalerie</a><a href="pro-zacatecnice.php" title="Pro začátečnice">Pro začátečnice</a> <a href="pro-pokrocile.php" title="Pro pokročilé">Pro pokročilé</a> <a href="pro-zkusene.php" title="Pro zkušené">Pro zkušené</a> <a href="vlastni-cesta.php" title="Vlastní cesta">Vlastní cesta</a> <a href="clanky.php" title="Články Zdenky Tvrdé">Články</a> <a href="kontakt.php" title="Kontakt">Kontakt</a> <a href="akce.php" title="Akce">Akce</a></p>
+	<a href="o-mne" title="O mně">O mně</a><a href="fotogalerie" title=“Fotogalerie”>Fotogalerie</a>  
+        <a href="treninky" title="Tréninky">Tréninky</a><a href="clanky" title="Články Zdenky Tvrdé">Články</a> 
+        <a href="kontakt" title="Kontakt">Kontakt</a> <a href="akce" title="Akce">Akce</a></p>
   <a href="https://www.facebook.com/zdena.tvrda.trenerka/?fref=ts" target="_blank" title="Facebook" id="facebook-male">Zdena Tvrdá Facebook</a>
 
 

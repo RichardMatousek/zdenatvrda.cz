@@ -39,6 +39,59 @@
    type="text/css" media="screen" />
  
   <!-- END head -->
+<script type="text/javascript">
+
+ $(document).ready(function() {
+
+	$.fancybox.open([
+    {
+    	type: 'image',
+        href : 'grafika/plakat-2.jpg',
+
+    }
+
+], {
+    padding : 0
+});
+	});
+
+</script>
+
+
+<script>
+$(document).ready(function() {
+	$(".form").fancybox({
+		Width	: 800,
+		Height	: 600,
+		fitToView	: false,
+		type		: 'iframe',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'fade',
+		closeEffect	: 'fade'
+	});
+});
+</script>
+<script>
+$(document).ready(function() {
+	$(".galerie").fancybox({
+		openEffect	: 'fade',
+		closeEffect	: 'fade'
+	});
+});
+</script>
+
+<script>
+jQuery(window).scroll(function(){
+    var fromTopPx = 772; // distance to trigger
+    var scrolledFromtop = jQuery(window).scrollTop();
+    if(scrolledFromtop > fromTopPx){
+        jQuery('#zdenatvrda2').addClass('scrolled');
+    }else{
+        jQuery('#zdenatvrda2').removeClass('scrolled');
+    }
+});
+</script>
 </head>
  
 <!-- BEGIN body -->
