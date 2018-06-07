@@ -37,22 +37,22 @@ something that isn't here.", "theme") ?></p>
 <div id="ctyrprogram">
 	<div id="program1">
 		<h3>Pro začátečnice</h3>
-		<a class="na-program" href="pro-zacatecnice.php" title="Osobní tréninky pro začátečnice">Více o programu</a>
+		<a class="na-program" href="treninky" title="Osobní tréninky pro zkušené">Více o programu</a>
 	</div>
  
 	<div id="program2">
 		<h3>Pro pokročilé</h3>
-		<a class="na-program" href="pro-pokrocile.php" title="Osobní tréninky pro pokročilé">Více o programu</a>
+		<a class="na-program" href="treninky" title="Osobní tréninky pro zkušené">Více o programu</a>
 	</div>
  
 	<div id="program3">
 		<h3>Pro pro zkušené</h3>
-		 <a class="na-program" href="pro-pokrocile.php" title="Osobní tréninky pro pokročilé">Více o programu</a>
+		<a class="na-program" href="treninky" title="Osobní tréninky pro zkušené">Více o programu</a>
 	</div>
  
 	<div id="program4">
 		<h3>Vlastní cesta</h3>
-		 <a class="na-program" href="vlastni-cesta.php" title="Individuální osobní tréniky">Více o programu</a>
+		<a class="na-program" href="treninky" title="Osobní tréninky pro zkušené">Více o programu</a>
 	</div>
 	<div class="cistic"></div>
 </div>
