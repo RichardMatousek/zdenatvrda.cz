@@ -143,7 +143,7 @@ color: black;
 #menuobsah {
   width: 960px;
   height: 40px;
-  margin: 40px auto 0 auto;
+  margin: 80px auto 0 auto;
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -1127,9 +1127,31 @@ h3#Grand {
 #fotogal {
 	padding: 20px 20px;
 }
+
+#fotogal-o-mne {
+	padding: 20px 20px;
+        height: 640px;
+}
+
 .galerie-foto {
+        height: 210px;
 	width: 210px;
-	margin: 0 5px 20px 0;
+        margin-left: 2px;
+        margin-right: 2px;
+	float: left;
+	min-height: 210px;
+	/*background: #e4e4e4;*/
+	text-align: center;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.galerie-foto-o-mne {
+        height: 315px;
+	width: 210px;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-bottom: 4px;
 	float: left;
 	min-height: 210px;
 	/*background: #e4e4e4;*/
@@ -1291,52 +1313,52 @@ h3#Grand {
 	background: url('images/15-bioderma.jpg') center center no-repeat;
 }
 .galerie-foto:nth-of-type(4)  {
-	margin: 0 0 20px 0;
+	margin: 0 0 20px 2px;
 }
 .galerie-foto:nth-of-type(8)  {
-	margin: 0 0 20px 0;
+	margin: 0 0 20px 2px;
 }
 .galerie-foto:nth-of-type(12)  {
-	margin: 0 0 20px 0;
+	margin: 0 0 20px 2px;
 }
 .galerie-foto:nth-of-type(16)  {
-	margin: 0 0 20px 0;
+	margin: 0 0 20px 2px;
 }
 .galerie-foto:nth-of-type(20)  {
-	margin: 0 0 20px 0;
+	margin: 0 0 20px 2px;
 }
 .galerie-foto:nth-of-type(24)  {
-	margin: 0 0 20px 0;
+	margin: 0 0 20px 2px;
 }
 .galerie-foto:nth-of-type(28)  {
-	margin: 0 0 20px 0;
+	margin: 0 0 20px 2px;
 }
 .galerie-foto:nth-of-type(32)  {
-	margin: 0 0 20px 0;
+	margin: 0 0 20px 2px;
 }
 .galerie-foto:nth-of-type(36)  {
-	margin: 0 0 20px 0;
+	margin: 0 0 20px 2px;
 }
 .galerie-foto:nth-of-type(40)  {
-	margin: 0 0 20px 0;
+	margin: 0 0 20px 2px;
 }
 .galerie-foto:nth-of-type(44)  {
-	margin: 0 0 20px 0;
+	margin: 0 0 20px 2px;
 }
 .galerie-foto:nth-of-type(48)  {
-	margin: 0 0 20px 0;
+	margin: 0 0 20px 2px;
 }
 .galerie-foto:nth-of-type(52)  {
-	margin: 0 0 20px 0;
+	margin: 0 0 20px 2px;
 }
 .galerie-foto:nth-of-type(56)  {
-	margin: 0 0 20px 0;
+	margin: 0 0 20px 2px;
 }
 .galerie-foto:nth-of-type(60)  {
-	margin: 0 0 20px 0;
+	margin: 0 0 20px 2px;
 }
 .galerie-foto:nth-of-type(64)  {
-	margin: 0 0 20px 0;
+	margin: 0 0 20px 2px;
 }
 .popisek {
 	padding: 5px 7px;
