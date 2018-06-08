@@ -48,7 +48,7 @@
  
 	<div id="program4">
 		<h3>Vlastní cesta</h3>
-		<a class="na-program" href="treninky" title="Osobní tréninky pro zkušené">Více o programu</a>
+		<a class="na-program" href="kontakt" title="Osobní tréninky pro zkušené">Napište mi</a>
 	</div>
 	<div class="cistic"></div>
 </div>
