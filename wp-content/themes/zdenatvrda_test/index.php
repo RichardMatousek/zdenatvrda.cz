@@ -62,8 +62,9 @@
  <a class="tlacitko form" href="kontakt" title="Osobní tréninky pro zkušené">Jdu do toho!</a>
 </p>
 </div>
-
+    
 <div id="delicicara">
 </div>
 
 <?php get_footer(); ?>
+</div>  
